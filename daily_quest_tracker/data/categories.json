@@ -1,19 +1,95 @@
 {
   "version": 1,
   "categories": [
-    {"name": "Adventure",   "color": "#C8553D", "motto": "Beyond the next hill"},
-    {"name": "Art",         "color": "#8E5BA8", "motto": "Colour the world"},
-    {"name": "Creativity",  "color": "#D98E04", "motto": "Make something new"},
-    {"name": "Connection",  "color": "#C0577A", "motto": "Bonds of fellowship"},
-    {"name": "Exploration", "color": "#3F7CAC", "motto": "Chart the unknown"},
-    {"name": "Learning",    "color": "#4A6FA5", "motto": "Knowledge is a lantern"},
-    {"name": "Nature",      "color": "#4F8A3C", "motto": "Walk with the wild"},
-    {"name": "Self Care",   "color": "#5FA8A0", "motto": "Tend your own fire"},
-    {"name": "Food",        "color": "#B5651D", "motto": "Feast and forage"},
-    {"name": "Physical",    "color": "#A63D40", "motto": "Strength of arm"},
-    {"name": "Reflection",  "color": "#6C6A9E", "motto": "Quiet counsel"},
-    {"name": "Social",      "color": "#D4A017", "motto": "The tavern awaits"},
-    {"name": "Culture",     "color": "#7B4B94", "motto": "Songs and stories"},
-    {"name": "Spontaneity", "color": "#E07A5F", "motto": "Let fate decide"}
+    {
+      "name": "Adventure",
+      "color": "#C8553D",
+      "motto": "Beyond the next hill"
+    },
+    {
+      "name": "Art",
+      "color": "#8E5BA8",
+      "motto": "Colour the world"
+    },
+    {
+      "name": "Creativity",
+      "color": "#D98E04",
+      "motto": "Make something new"
+    },
+    {
+      "name": "Connection",
+      "color": "#C0577A",
+      "motto": "Bonds of fellowship"
+    },
+    {
+      "name": "Exploration",
+      "color": "#3F7CAC",
+      "motto": "Chart the unknown"
+    },
+    {
+      "name": "Learning",
+      "color": "#4A6FA5",
+      "motto": "Knowledge is a lantern"
+    },
+    {
+      "name": "Nature",
+      "color": "#4F8A3C",
+      "motto": "Walk with the wild"
+    },
+    {
+      "name": "Self Care",
+      "color": "#5FA8A0",
+      "motto": "Tend your own fire"
+    },
+    {
+      "name": "Food",
+      "color": "#B5651D",
+      "motto": "Feast and forage"
+    },
+    {
+      "name": "Physical",
+      "color": "#A63D40",
+      "motto": "Strength of arm"
+    },
+    {
+      "name": "Reflection",
+      "color": "#6C6A9E",
+      "motto": "Quiet counsel"
+    },
+    {
+      "name": "Social",
+      "color": "#D4A017",
+      "motto": "The tavern awaits"
+    },
+    {
+      "name": "Culture",
+      "color": "#7B4B94",
+      "motto": "Songs and stories"
+    },
+    {
+      "name": "Spontaneity",
+      "color": "#E07A5F",
+      "motto": "Let fate decide"
+    },
+    {
+      "name": "Music",
+      "color": "#1D7874",
+      "motto": "Songs around the fire"
+    },
+    {
+      "name": "Crafts",
+      "color": "#8C5E3C",
+      "motto": "The work of good hands"
+    },
+    {
+      "name": "Kindness",
+      "color": "#D1495B",
+      "motto": "The truest chivalry"
+    },
+    {
+      "name": "Seasonal",
+      "color": "#9A8C3A",
+      "motto": "The turning of the year"
+    }
   ]
 }

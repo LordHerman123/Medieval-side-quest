@@ -10,13 +10,14 @@ from core.quest_engine import CATEGORIES_FILE, QUESTS_FILE, load_builtin_quests,
 REQUIRED_CATEGORIES = {
     "Adventure", "Art", "Creativity", "Connection", "Exploration", "Learning", "Nature",
     "Self Care", "Food", "Physical", "Reflection", "Social", "Culture", "Spontaneity",
+    "Music", "Crafts", "Kindness", "Seasonal",
 }
 MUNDANE = ("clean your room", "do the dishes", "make your bed", "drink water", "do laundry")
 
 
 def test_library_is_large_and_valid():
     quests = load_builtin_quests()
-    assert 200 <= len(quests) <= 500
+    assert 800 <= len(quests) <= 1000
     assert len({q.id for q in quests}) == len(quests)
     assert len({q.title.lower() for q in quests}) == len(quests)
 
@@ -43,7 +44,7 @@ def test_all_categories_present_and_well_stocked():
     quests = load_builtin_quests()
     counts = Counter(q.category for q in quests)
     assert REQUIRED_CATEGORIES <= set(counts)
-    assert min(counts[c] for c in REQUIRED_CATEGORIES) >= 15
+    assert min(counts[c] for c in REQUIRED_CATEGORIES) >= 25
     names = {c.name for c in load_categories(CATEGORIES_FILE)}
     assert set(counts) <= names
 
