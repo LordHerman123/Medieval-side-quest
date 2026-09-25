@@ -44,7 +44,7 @@ pip install pytest
 pytest
 ```
 
-The tests (≈110) cover quest data validation, filtering, scoring, preference updates, novelty and
+The 106 tests cover quest data validation, filtering, scoring, preference updates, novelty and
 wildcard selection, daily generation, XP and levels, progression, the weather fallback, database
 persistence and the full game loop. None of them start the GUI.
 
