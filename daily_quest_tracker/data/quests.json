@@ -1,0 +1,6333 @@
+{
+  "version": 1,
+  "quests": [
+    {
+      "id": "quest_001",
+      "title": "Explore a street you've never walked down",
+      "description": "Pick a street near you that you have somehow never set foot on and walk its whole length. Notice one thing that surprises you.",
+      "category": "Adventure",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 45,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "walking",
+        "novelty",
+        "local"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_002",
+      "title": "Take a different route home",
+      "description": "Choose a route you have never taken before, even if it is slower. Let yourself get slightly lost on purpose.",
+      "category": "Adventure",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 30,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "walking",
+        "novelty",
+        "map"
+      ],
+      "xp": 20
+    },
+    {
+      "id": "quest_003",
+      "title": "Follow the third left",
+      "description": "Leave your door and take the third left, then the third right, then the third left again. See where the pattern delivers you.",
+      "category": "Adventure",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 45,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "walking",
+        "spontaneity",
+        "novelty"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_004",
+      "title": "Climb to the highest point nearby",
+      "description": "Find the highest hill, tower, car park roof or public viewpoint within reach and look out over your territory.",
+      "category": "Adventure",
+      "difficulty": 3,
+      "cost": 0,
+      "accessibility": 1,
+      "duration": 90,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy"
+      ],
+      "tags": [
+        "views",
+        "walking",
+        "exploration"
+      ],
+      "xp": 55
+    },
+    {
+      "id": "quest_005",
+      "title": "Board a random bus",
+      "description": "Take a bus or tram line you have never used and ride it to a stop that sounds interesting. Explore for twenty minutes, then find your way back.",
+      "category": "Adventure",
+      "difficulty": 3,
+      "cost": 1,
+      "accessibility": 3,
+      "duration": 120,
+      "environment": "either",
+      "weather": [
+        "clear",
+        "cloudy",
+        "rain",
+        "snow",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "travel",
+        "novelty",
+        "public-transport"
+      ],
+      "xp": 60
+    },
+    {
+      "id": "quest_006",
+      "title": "Sunrise expedition",
+      "description": "Wake before dawn and be somewhere outside with a view when the sun comes up.",
+      "category": "Adventure",
+      "difficulty": 3,
+      "cost": 0,
+      "accessibility": 1,
+      "duration": 60,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy"
+      ],
+      "tags": [
+        "sky",
+        "morning",
+        "nature"
+      ],
+      "xp": 50
+    },
+    {
+      "id": "quest_007",
+      "title": "Night walk",
+      "description": "Take a walk after dark through a safe, familiar area and notice how different it feels. Listen more than you look.",
+      "category": "Adventure",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 40,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "night",
+        "walking",
+        "senses"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_008",
+      "title": "Find a hidden path",
+      "description": "Look at a map for a footpath, alley or trail near you that you did not know existed, and walk it.",
+      "category": "Adventure",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 1,
+      "duration": 60,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "map",
+        "walking",
+        "exploration"
+      ],
+      "xp": 35
+    },
+    {
+      "id": "quest_009",
+      "title": "Cross a bridge you've never crossed",
+      "description": "Seek out a bridge, footbridge or stepping stones you have never crossed and cross it, pausing in the middle.",
+      "category": "Adventure",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 1,
+      "duration": 45,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "walking",
+        "water",
+        "novelty"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_010",
+      "title": "Walk to the edge of your map",
+      "description": "Walk in one direction until you reach a place you have never been on foot. Mark it as the new border of your known world.",
+      "category": "Adventure",
+      "difficulty": 3,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 120,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "walking",
+        "map",
+        "endurance"
+      ],
+      "xp": 60
+    },
+    {
+      "id": "quest_011",
+      "title": "Visit a town you've only driven through",
+      "description": "Stop in a nearby village or town you have only ever passed through and spend an hour exploring its centre.",
+      "category": "Adventure",
+      "difficulty": 4,
+      "cost": 1,
+      "accessibility": 3,
+      "duration": 180,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy"
+      ],
+      "tags": [
+        "travel",
+        "local",
+        "novelty"
+      ],
+      "xp": 90
+    },
+    {
+      "id": "quest_012",
+      "title": "Day hike",
+      "description": "Plan and complete a proper hike of at least ten kilometres on a trail you have never walked.",
+      "category": "Adventure",
+      "difficulty": 4,
+      "cost": 0,
+      "accessibility": 2,
+      "duration": 300,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy"
+      ],
+      "tags": [
+        "hiking",
+        "nature",
+        "endurance"
+      ],
+      "xp": 90
+    },
+    {
+      "id": "quest_013",
+      "title": "Sleep under the stars",
+      "description": "Camp out for a night, in a tent, a hammock or even the back garden, and watch the sky until you fall asleep.",
+      "category": "Adventure",
+      "difficulty": 5,
+      "cost": 1,
+      "accessibility": 2,
+      "duration": 600,
+      "environment": "outdoor",
+      "weather": [
+        "clear"
+      ],
+      "tags": [
+        "night",
+        "camping",
+        "sky"
+      ],
+      "xp": 120
+    },
+    {
+      "id": "quest_014",
+      "title": "Walk in the rain on purpose",
+      "description": "Put on a coat (or don't) and take a walk while it rains. Jump in at least one puddle.",
+      "category": "Adventure",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 30,
+      "environment": "outdoor",
+      "weather": [
+        "rain",
+        "storm"
+      ],
+      "tags": [
+        "rain",
+        "walking",
+        "playful"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_015",
+      "title": "Explore without a phone",
+      "description": "Leave your phone at home and wander your neighbourhood for an hour, navigating only by memory and signposts.",
+      "category": "Adventure",
+      "difficulty": 3,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 60,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "walking",
+        "unplugged",
+        "exploration"
+      ],
+      "xp": 50
+    },
+    {
+      "id": "quest_016",
+      "title": "Seek out a waterfall, spring or source",
+      "description": "Find the nearest waterfall, spring, fountain or river source and go and see it in person.",
+      "category": "Adventure",
+      "difficulty": 3,
+      "cost": 0,
+      "accessibility": 2,
+      "duration": 150,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy"
+      ],
+      "tags": [
+        "water",
+        "nature",
+        "hiking"
+      ],
+      "xp": 65
+    },
+    {
+      "id": "quest_017",
+      "title": "Enter a building you always walk past",
+      "description": "There is a shop, church, library or hall you always walk past without entering. Today, go in.",
+      "category": "Adventure",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 20,
+      "environment": "either",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "novelty",
+        "local",
+        "curiosity"
+      ],
+      "xp": 15
+    },
+    {
+      "id": "quest_018",
+      "title": "Take the scenic train",
+      "description": "Take a train journey to somewhere a little far away, choosing a window seat and watching the country roll past.",
+      "category": "Adventure",
+      "difficulty": 4,
+      "cost": 2,
+      "accessibility": 3,
+      "duration": 360,
+      "environment": "either",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "travel",
+        "public-transport",
+        "views"
+      ],
+      "xp": 90
+    },
+    {
+      "id": "quest_019",
+      "title": "Snow trek",
+      "description": "When there is snow on the ground, go out and make the first footprints across an untouched stretch of it.",
+      "category": "Adventure",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 45,
+      "environment": "outdoor",
+      "weather": [
+        "snow"
+      ],
+      "tags": [
+        "snow",
+        "walking",
+        "playful"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_020",
+      "title": "Chase the golden hour",
+      "description": "Find a good spot and watch the landscape turn gold in the hour before sunset.",
+      "category": "Adventure",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 45,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy"
+      ],
+      "tags": [
+        "sky",
+        "evening",
+        "photography"
+      ],
+      "xp": 20
+    },
+    {
+      "id": "quest_021",
+      "title": "Paddle a new stretch of water",
+      "description": "Rent a kayak, canoe, rowing boat or paddleboard and explore a lake, river or coastline from the water.",
+      "category": "Adventure",
+      "difficulty": 4,
+      "cost": 2,
+      "accessibility": 3,
+      "duration": 180,
+      "environment": "outdoor",
+      "weather": [
+        "clear"
+      ],
+      "tags": [
+        "water",
+        "paddling",
+        "travel"
+      ],
+      "xp": 90
+    },
+    {
+      "id": "quest_022",
+      "title": "Geocache hunt",
+      "description": "Look up a geocache near you and try to find it. Leave something small in exchange if you can.",
+      "category": "Adventure",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 1,
+      "duration": 60,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "treasure",
+        "map",
+        "games"
+      ],
+      "xp": 35
+    },
+    {
+      "id": "quest_023",
+      "title": "Walk a full circle of your town",
+      "description": "Try to walk a loop that traces the rough outer edge of your town or district in one go.",
+      "category": "Adventure",
+      "difficulty": 5,
+      "cost": 0,
+      "accessibility": 1,
+      "duration": 360,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy"
+      ],
+      "tags": [
+        "walking",
+        "endurance",
+        "map"
+      ],
+      "xp": 120
+    },
+    {
+      "id": "quest_024",
+      "title": "Find the oldest tree you can",
+      "description": "Search for the oldest, biggest tree in your area. Touch its bark and guess what it has lived through.",
+      "category": "Adventure",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 1,
+      "duration": 60,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "trees",
+        "nature",
+        "history"
+      ],
+      "xp": 35
+    },
+    {
+      "id": "quest_025",
+      "title": "Sketch something you see every day",
+      "description": "Draw an ordinary object you use daily, slowly and carefully, as if you had never seen one before.",
+      "category": "Art",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 20,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "drawing",
+        "observation",
+        "slow"
+      ],
+      "xp": 15
+    },
+    {
+      "id": "quest_026",
+      "title": "Blind contour portrait",
+      "description": "Draw a person's face (or your own in a mirror) without looking at the paper. Enjoy the strange result.",
+      "category": "Art",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 15,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "drawing",
+        "playful",
+        "people"
+      ],
+      "xp": 15
+    },
+    {
+      "id": "quest_027",
+      "title": "Paint the sky right now",
+      "description": "Look out of the window and paint or colour the sky exactly as it is at this moment.",
+      "category": "Art",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 30,
+      "environment": "either",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "painting",
+        "sky",
+        "observation"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_028",
+      "title": "Photo walk: one colour",
+      "description": "Take a walk and photograph only things of a single colour you pick before leaving.",
+      "category": "Art",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 45,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "photography",
+        "walking",
+        "colour"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_029",
+      "title": "Make a zine",
+      "description": "Fold a sheet of paper into a tiny eight-page booklet and fill it with drawings, words or collage about anything you like.",
+      "category": "Art",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 60,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "making",
+        "paper",
+        "writing"
+      ],
+      "xp": 35
+    },
+    {
+      "id": "quest_030",
+      "title": "Visit a gallery and choose one painting",
+      "description": "Go to a gallery or exhibition and spend ten full minutes in front of a single work of art.",
+      "category": "Art",
+      "difficulty": 2,
+      "cost": 1,
+      "accessibility": 1,
+      "duration": 90,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "museum",
+        "slow",
+        "culture"
+      ],
+      "xp": 40
+    },
+    {
+      "id": "quest_031",
+      "title": "Draw your street from memory",
+      "description": "Without looking, draw a map or picture of your street. Then go outside and compare.",
+      "category": "Art",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 30,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "drawing",
+        "memory",
+        "local"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_032",
+      "title": "Chalk art on the pavement",
+      "description": "Buy or borrow chalk and leave a cheerful drawing or message on the pavement for others to find.",
+      "category": "Art",
+      "difficulty": 2,
+      "cost": 1,
+      "accessibility": 0,
+      "duration": 30,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "drawing",
+        "kindness",
+        "playful"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_033",
+      "title": "Photograph ten doors",
+      "description": "Hunt down ten interesting doors in your area and photograph each one. Which would you most like to open?",
+      "category": "Art",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 60,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "photography",
+        "walking",
+        "architecture"
+      ],
+      "xp": 35
+    },
+    {
+      "id": "quest_034",
+      "title": "Make a collage from old magazines",
+      "description": "Tear up old magazines, flyers or packaging and assemble them into a collage with a mood or story.",
+      "category": "Art",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 45,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "collage",
+        "making",
+        "paper"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_035",
+      "title": "Paint with your non-dominant hand",
+      "description": "Paint or draw a small scene using only the hand you don't write with.",
+      "category": "Art",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 20,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "painting",
+        "playful",
+        "challenge"
+      ],
+      "xp": 15
+    },
+    {
+      "id": "quest_036",
+      "title": "Sculpt something from clay or dough",
+      "description": "Shape a small creature or object out of clay, salt dough or even bread dough.",
+      "category": "Art",
+      "difficulty": 2,
+      "cost": 1,
+      "accessibility": 0,
+      "duration": 45,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "sculpture",
+        "making",
+        "hands"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_037",
+      "title": "Sketch in a café",
+      "description": "Sit in a café or public space and sketch the people and objects around you, quickly and without judgement.",
+      "category": "Art",
+      "difficulty": 3,
+      "cost": 1,
+      "accessibility": 1,
+      "duration": 60,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "drawing",
+        "people",
+        "observation"
+      ],
+      "xp": 50
+    },
+    {
+      "id": "quest_038",
+      "title": "Take a macro photograph",
+      "description": "Get as close as your camera allows to something small (a leaf, an insect, a fabric) and find a hidden world.",
+      "category": "Art",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 20,
+      "environment": "either",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "photography",
+        "nature",
+        "observation"
+      ],
+      "xp": 15
+    },
+    {
+      "id": "quest_039",
+      "title": "Create a nature mandala",
+      "description": "Gather fallen leaves, stones, petals and sticks and arrange them into a circular pattern outside. Leave it for others.",
+      "category": "Art",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 40,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "nature",
+        "land-art",
+        "patterns"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_040",
+      "title": "Draw a map of an imaginary kingdom",
+      "description": "Invent a kingdom and draw its map: mountains, rivers, towns, dragons' lairs and all.",
+      "category": "Art",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 60,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "drawing",
+        "fantasy",
+        "map"
+      ],
+      "xp": 35
+    },
+    {
+      "id": "quest_041",
+      "title": "Paint a rock and hide it",
+      "description": "Paint a small stone with a picture or kind message and hide it somewhere for a stranger to discover.",
+      "category": "Art",
+      "difficulty": 2,
+      "cost": 1,
+      "accessibility": 0,
+      "duration": 45,
+      "environment": "either",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "painting",
+        "kindness",
+        "treasure"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_042",
+      "title": "Attend a life-drawing session",
+      "description": "Find a drop-in life-drawing or urban sketching session and join in, whatever your skill level.",
+      "category": "Art",
+      "difficulty": 4,
+      "cost": 2,
+      "accessibility": 3,
+      "duration": 150,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "drawing",
+        "class",
+        "community"
+      ],
+      "xp": 85
+    },
+    {
+      "id": "quest_043",
+      "title": "Shadow drawing",
+      "description": "Place objects in sunlight or lamplight and trace their shadows onto paper. Turn the shapes into something new.",
+      "category": "Art",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 30,
+      "environment": "either",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "drawing",
+        "light",
+        "playful"
+      ],
+      "xp": 20
+    },
+    {
+      "id": "quest_044",
+      "title": "Photo series: the life of a single hour",
+      "description": "Take one photograph every five minutes for an hour, wherever you are. Look at the twelve pictures together.",
+      "category": "Art",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 60,
+      "environment": "either",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "photography",
+        "time",
+        "observation"
+      ],
+      "xp": 35
+    },
+    {
+      "id": "quest_045",
+      "title": "Build a tiny diorama",
+      "description": "Create a small scene inside a shoebox or jar: a forest, a tavern, a castle courtyard.",
+      "category": "Art",
+      "difficulty": 3,
+      "cost": 1,
+      "accessibility": 0,
+      "duration": 120,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "making",
+        "miniature",
+        "fantasy"
+      ],
+      "xp": 60
+    },
+    {
+      "id": "quest_046",
+      "title": "Paint a postcard and post it",
+      "description": "Paint a small picture on a card and send it through the post to someone who won't expect it.",
+      "category": "Art",
+      "difficulty": 2,
+      "cost": 1,
+      "accessibility": 0,
+      "duration": 45,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "painting",
+        "connection",
+        "letters"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_047",
+      "title": "Try calligraphy",
+      "description": "Practise an old-fashioned hand: blackletter, uncial or copperplate. Write a single motto beautifully.",
+      "category": "Art",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 45,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "writing",
+        "calligraphy",
+        "medieval"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_048",
+      "title": "Write a six-word story",
+      "description": "Write a complete story in exactly six words. Then write five more.",
+      "category": "Creativity",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 15,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "writing",
+        "stories",
+        "playful"
+      ],
+      "xp": 15
+    },
+    {
+      "id": "quest_049",
+      "title": "Invent a new recipe",
+      "description": "Combine ingredients you already have into a dish you have never made or seen before. Give it a grand name.",
+      "category": "Creativity",
+      "difficulty": 2,
+      "cost": 1,
+      "accessibility": 0,
+      "duration": 60,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "cooking",
+        "invention",
+        "food"
+      ],
+      "xp": 35
+    },
+    {
+      "id": "quest_050",
+      "title": "Compose a tavern song",
+      "description": "Write a short verse and chorus about your day in the style of a rowdy tavern song. Sing it, at least quietly.",
+      "category": "Creativity",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 30,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "music",
+        "writing",
+        "medieval"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_051",
+      "title": "Design a coat of arms",
+      "description": "Design your own heraldic coat of arms: colours, charges, a creature and a motto that sums you up.",
+      "category": "Creativity",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 40,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "drawing",
+        "medieval",
+        "identity"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_052",
+      "title": "Build a blanket fort",
+      "description": "Construct the most ambitious blanket fort your home allows and spend some time inside it.",
+      "category": "Creativity",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 45,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "building",
+        "playful",
+        "cosy"
+      ],
+      "xp": 20
+    },
+    {
+      "id": "quest_053",
+      "title": "Write a letter to your future self",
+      "description": "Write a letter to be opened one year from today. Seal it and hide it somewhere safe.",
+      "category": "Creativity",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 30,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "writing",
+        "reflection",
+        "time"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_054",
+      "title": "Invent a board game",
+      "description": "Create a simple board game with paper, coins and a die. Play at least one round, even alone.",
+      "category": "Creativity",
+      "difficulty": 3,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 90,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "games",
+        "invention",
+        "making"
+      ],
+      "xp": 55
+    },
+    {
+      "id": "quest_055",
+      "title": "Repurpose something broken",
+      "description": "Take an object that is broken or unused and turn it into something useful or beautiful.",
+      "category": "Creativity",
+      "difficulty": 3,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 90,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "making",
+        "upcycling",
+        "hands"
+      ],
+      "xp": 55
+    },
+    {
+      "id": "quest_056",
+      "title": "Write a poem about the weather",
+      "description": "Look outside and write a short poem about exactly the weather you see today.",
+      "category": "Creativity",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 20,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "poetry",
+        "writing",
+        "sky"
+      ],
+      "xp": 15
+    },
+    {
+      "id": "quest_057",
+      "title": "Create a playlist soundtrack for your life",
+      "description": "Make a playlist that would be the soundtrack to a film about your life so far. Give each song a scene.",
+      "category": "Creativity",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 40,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "music",
+        "memory",
+        "curation"
+      ],
+      "xp": 20
+    },
+    {
+      "id": "quest_058",
+      "title": "Write a fable",
+      "description": "Write a short fable with talking animals and a moral at the end.",
+      "category": "Creativity",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 45,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "writing",
+        "stories",
+        "animals"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_059",
+      "title": "Make up a constellation",
+      "description": "Look at the night sky, connect some stars into a shape of your own and invent the myth behind it.",
+      "category": "Creativity",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 30,
+      "environment": "outdoor",
+      "weather": [
+        "clear"
+      ],
+      "tags": [
+        "night",
+        "sky",
+        "stories"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_060",
+      "title": "Make a stop-motion clip",
+      "description": "Use your phone to make a ten-second stop-motion animation with household objects.",
+      "category": "Creativity",
+      "difficulty": 3,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 90,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "animation",
+        "film",
+        "making"
+      ],
+      "xp": 55
+    },
+    {
+      "id": "quest_061",
+      "title": "Knot, weave or braid something",
+      "description": "Learn a decorative knot, weave a small mat or braid a bracelet from string or yarn.",
+      "category": "Creativity",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 45,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "crafts",
+        "hands",
+        "making"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_062",
+      "title": "Write the menu of an imaginary tavern",
+      "description": "Invent a tavern and write its full menu, including prices, specials and ominous warnings.",
+      "category": "Creativity",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 30,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "writing",
+        "fantasy",
+        "food"
+      ],
+      "xp": 20
+    },
+    {
+      "id": "quest_063",
+      "title": "Design your dream home floorplan",
+      "description": "Draw the floorplan of your ideal home, including one completely impractical room.",
+      "category": "Creativity",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 45,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "drawing",
+        "architecture",
+        "dreams"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_064",
+      "title": "Make music with household objects",
+      "description": "Find five objects that make interesting sounds and compose a short rhythm or piece with them.",
+      "category": "Creativity",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 20,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "music",
+        "playful",
+        "sound"
+      ],
+      "xp": 15
+    },
+    {
+      "id": "quest_065",
+      "title": "Record a short podcast episode",
+      "description": "Record five minutes talking about something you love, as if to an eager audience.",
+      "category": "Creativity",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 45,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "audio",
+        "speaking",
+        "passion"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_066",
+      "title": "Write a letter from a medieval traveller",
+      "description": "Write a letter as if you were a traveller in the year 1350, describing your journey so far.",
+      "category": "Creativity",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 40,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "writing",
+        "history",
+        "medieval"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_067",
+      "title": "Build a bird feeder",
+      "description": "Make a simple bird feeder from a bottle, carton or pine cone and hang it outside.",
+      "category": "Creativity",
+      "difficulty": 2,
+      "cost": 1,
+      "accessibility": 0,
+      "duration": 60,
+      "environment": "either",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "making",
+        "birds",
+        "nature"
+      ],
+      "xp": 35
+    },
+    {
+      "id": "quest_068",
+      "title": "Invent a word",
+      "description": "Invent a new word for a feeling or situation that does not yet have a name. Use it in conversation.",
+      "category": "Creativity",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 10,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "language",
+        "playful",
+        "writing"
+      ],
+      "xp": 15
+    },
+    {
+      "id": "quest_069",
+      "title": "Create a secret code",
+      "description": "Invent a cipher and write a message in it. Hide the message somewhere for someone to decode.",
+      "category": "Creativity",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 40,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "puzzles",
+        "writing",
+        "games"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_070",
+      "title": "Sew a patch or badge",
+      "description": "Design and sew (or glue) a patch or badge that marks one of your recent adventures.",
+      "category": "Creativity",
+      "difficulty": 3,
+      "cost": 1,
+      "accessibility": 0,
+      "duration": 90,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "crafts",
+        "sewing",
+        "making"
+      ],
+      "xp": 55
+    },
+    {
+      "id": "quest_071",
+      "title": "Write a thank-you letter",
+      "description": "Handwrite a thank-you letter to someone who shaped your life, and send it.",
+      "category": "Connection",
+      "difficulty": 2,
+      "cost": 1,
+      "accessibility": 0,
+      "duration": 30,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "gratitude",
+        "letters",
+        "kindness"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_072",
+      "title": "Call someone you haven't spoken to in a year",
+      "description": "Phone (don't text) someone you have drifted away from and ask how they really are.",
+      "category": "Connection",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 30,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "friends",
+        "phone",
+        "reconnect"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_073",
+      "title": "Cook for someone",
+      "description": "Cook a meal for a friend, neighbour or family member, with no special occasion required.",
+      "category": "Connection",
+      "difficulty": 3,
+      "cost": 2,
+      "accessibility": 4,
+      "duration": 120,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "cooking",
+        "friends",
+        "generosity"
+      ],
+      "xp": 60
+    },
+    {
+      "id": "quest_074",
+      "title": "Ask an elder for a story",
+      "description": "Ask an older person in your life to tell you a story from their youth that you have never heard.",
+      "category": "Connection",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 4,
+      "duration": 45,
+      "environment": "either",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "family",
+        "stories",
+        "listening"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_075",
+      "title": "Send a voice message instead of a text",
+      "description": "Send a friend a voice note telling them something you appreciate about them.",
+      "category": "Connection",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 5,
+      "environment": "either",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "friends",
+        "gratitude",
+        "phone"
+      ],
+      "xp": 15
+    },
+    {
+      "id": "quest_076",
+      "title": "Leave a kind note for a stranger",
+      "description": "Write an encouraging note and leave it where a stranger will find it: a library book, a bench, a bus stop.",
+      "category": "Connection",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 15,
+      "environment": "either",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "kindness",
+        "strangers",
+        "writing"
+      ],
+      "xp": 15
+    },
+    {
+      "id": "quest_077",
+      "title": "Plan a surprise for a friend",
+      "description": "Organise a small surprise for a friend: a delivery, a visit, a treasure hunt, a care package.",
+      "category": "Connection",
+      "difficulty": 3,
+      "cost": 1,
+      "accessibility": 4,
+      "duration": 90,
+      "environment": "either",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "friends",
+        "surprise",
+        "generosity"
+      ],
+      "xp": 55
+    },
+    {
+      "id": "quest_078",
+      "title": "Share a meal without screens",
+      "description": "Share a meal with someone and agree that all phones stay in another room.",
+      "category": "Connection",
+      "difficulty": 2,
+      "cost": 1,
+      "accessibility": 4,
+      "duration": 60,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "friends",
+        "food",
+        "unplugged"
+      ],
+      "xp": 35
+    },
+    {
+      "id": "quest_079",
+      "title": "Learn a neighbour's name",
+      "description": "Introduce yourself to a neighbour whose name you don't know, and remember it.",
+      "category": "Connection",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 10,
+      "environment": "outdoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "neighbours",
+        "community",
+        "courage"
+      ],
+      "xp": 25
+    },
+    {
+      "id": "quest_080",
+      "title": "Write a letter to a grandparent or elder",
+      "description": "Write a real paper letter to a grandparent or older relative, full of small news.",
+      "category": "Connection",
+      "difficulty": 1,
+      "cost": 1,
+      "accessibility": 0,
+      "duration": 30,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "family",
+        "letters",
+        "gratitude"
+      ],
+      "xp": 20
+    },
+    {
+      "id": "quest_081",
+      "title": "Host a game night",
+      "description": "Invite a few people over for board games, card games or a quiz you wrote yourself.",
+      "category": "Connection",
+      "difficulty": 3,
+      "cost": 1,
+      "accessibility": 4,
+      "duration": 180,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "games",
+        "friends",
+        "hosting"
+      ],
+      "xp": 70
+    },
+    {
+      "id": "quest_082",
+      "title": "Give a genuine compliment to three people",
+      "description": "Give three people specific, genuine compliments today about something other than appearance.",
+      "category": "Connection",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 10,
+      "environment": "either",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "kindness",
+        "people",
+        "courage"
+      ],
+      "xp": 15
+    },
+    {
+      "id": "quest_083",
+      "title": "Walk and talk",
+      "description": "Invite a friend on a walk instead of meeting at a café. Talk about something you both care about.",
+      "category": "Connection",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 4,
+      "duration": 60,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "friends",
+        "walking",
+        "conversation"
+      ],
+      "xp": 35
+    },
+    {
+      "id": "quest_084",
+      "title": "Make a photo album for someone",
+      "description": "Gather photos of shared memories with someone and put them together as an album or printed collage.",
+      "category": "Connection",
+      "difficulty": 3,
+      "cost": 1,
+      "accessibility": 0,
+      "duration": 90,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "memory",
+        "photography",
+        "gift"
+      ],
+      "xp": 55
+    },
+    {
+      "id": "quest_085",
+      "title": "Ask a deep question",
+      "description": "In a conversation today, ask someone a question you've never asked them, such as 'What are you most proud of?'",
+      "category": "Connection",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 4,
+      "duration": 20,
+      "environment": "either",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "conversation",
+        "listening",
+        "friends"
+      ],
+      "xp": 25
+    },
+    {
+      "id": "quest_086",
+      "title": "Send a postcard to an old friend",
+      "description": "Buy a local postcard and send it to an old friend with a short memory you share.",
+      "category": "Connection",
+      "difficulty": 1,
+      "cost": 1,
+      "accessibility": 0,
+      "duration": 15,
+      "environment": "either",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "letters",
+        "friends",
+        "memory"
+      ],
+      "xp": 15
+    },
+    {
+      "id": "quest_087",
+      "title": "Teach someone something you know",
+      "description": "Teach a friend or family member a skill you have, however small: a card trick, a recipe, a knot.",
+      "category": "Connection",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 4,
+      "duration": 45,
+      "environment": "either",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "teaching",
+        "friends",
+        "skills"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_088",
+      "title": "Video call someone far away",
+      "description": "Schedule a proper, unhurried video call with someone who lives far away.",
+      "category": "Connection",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 45,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "friends",
+        "distance",
+        "reconnect"
+      ],
+      "xp": 20
+    },
+    {
+      "id": "quest_089",
+      "title": "Share your favourite place",
+      "description": "Take someone to your favourite secret spot and tell them why it matters to you.",
+      "category": "Connection",
+      "difficulty": 3,
+      "cost": 0,
+      "accessibility": 4,
+      "duration": 90,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy"
+      ],
+      "tags": [
+        "friends",
+        "places",
+        "sharing"
+      ],
+      "xp": 55
+    },
+    {
+      "id": "quest_090",
+      "title": "Write down what you love about someone",
+      "description": "Write a list of ten things you love about someone close to you. Decide whether to give it to them.",
+      "category": "Connection",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 20,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "gratitude",
+        "writing",
+        "love"
+      ],
+      "xp": 15
+    },
+    {
+      "id": "quest_091",
+      "title": "Leave a surprise for a housemate or neighbour",
+      "description": "Leave a small, anonymous gift for a housemate or neighbour: flowers, a treat, a drawing.",
+      "category": "Connection",
+      "difficulty": 2,
+      "cost": 1,
+      "accessibility": 0,
+      "duration": 20,
+      "environment": "either",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "kindness",
+        "gift",
+        "neighbours"
+      ],
+      "xp": 25
+    },
+    {
+      "id": "quest_092",
+      "title": "Visit a place you've only seen on a map",
+      "description": "Look at a map of your area, pick a name that intrigues you (a park, a lane, a hamlet) and go and see it.",
+      "category": "Exploration",
+      "difficulty": 3,
+      "cost": 0,
+      "accessibility": 2,
+      "duration": 90,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "map",
+        "novelty",
+        "curiosity"
+      ],
+      "xp": 55
+    },
+    {
+      "id": "quest_093",
+      "title": "Explore a new neighbourhood",
+      "description": "Spend an hour wandering a neighbourhood you rarely or never visit. Find its best-kept secret.",
+      "category": "Exploration",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 1,
+      "duration": 60,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "walking",
+        "local",
+        "novelty"
+      ],
+      "xp": 35
+    },
+    {
+      "id": "quest_094",
+      "title": "Enter a shop you've never entered",
+      "description": "Go into a speciality shop you have never visited: a tobacconist, a fabric shop, a tackle shop, an antiques dealer.",
+      "category": "Exploration",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 20,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "local",
+        "curiosity",
+        "novelty"
+      ],
+      "xp": 15
+    },
+    {
+      "id": "quest_095",
+      "title": "Find the oldest building near you",
+      "description": "Research and visit the oldest surviving building in your area. Look for dates carved in stone.",
+      "category": "Exploration",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 1,
+      "duration": 75,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "history",
+        "architecture",
+        "local"
+      ],
+      "xp": 35
+    },
+    {
+      "id": "quest_096",
+      "title": "Read every plaque on one street",
+      "description": "Walk a historic street and read every plaque, memorial and inscription you find.",
+      "category": "Exploration",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 45,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "history",
+        "walking",
+        "reading"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_097",
+      "title": "Visit a local market",
+      "description": "Go to a market you have never been to and try at least one thing you have never tasted.",
+      "category": "Exploration",
+      "difficulty": 2,
+      "cost": 1,
+      "accessibility": 1,
+      "duration": 60,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "market",
+        "food",
+        "local"
+      ],
+      "xp": 35
+    },
+    {
+      "id": "quest_098",
+      "title": "Explore a cemetery",
+      "description": "Walk respectfully through an old cemetery. Read names and dates and imagine the lives behind them.",
+      "category": "Exploration",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 1,
+      "duration": 45,
+      "environment": "outdoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "history",
+        "quiet",
+        "reflection"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_099",
+      "title": "Discover a street art trail",
+      "description": "Look up street art or murals in your area and plan a walking route that visits as many as you can.",
+      "category": "Exploration",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 1,
+      "duration": 90,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "art",
+        "walking",
+        "city"
+      ],
+      "xp": 40
+    },
+    {
+      "id": "quest_100",
+      "title": "Visit a place of worship of another faith",
+      "description": "Visit a church, mosque, temple, synagogue or gurdwara you have never entered, respecting its customs.",
+      "category": "Exploration",
+      "difficulty": 3,
+      "cost": 0,
+      "accessibility": 1,
+      "duration": 60,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "culture",
+        "architecture",
+        "respect"
+      ],
+      "xp": 50
+    },
+    {
+      "id": "quest_101",
+      "title": "Find the source of a local name",
+      "description": "Find out why your street, town or district is called what it is. Visit the place that inspired the name if you can.",
+      "category": "Exploration",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 45,
+      "environment": "either",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "history",
+        "research",
+        "local"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_102",
+      "title": "Take a self-guided architecture tour",
+      "description": "Pick an architectural style (gothic, art deco, brutalist) and hunt for examples of it in your area.",
+      "category": "Exploration",
+      "difficulty": 3,
+      "cost": 0,
+      "accessibility": 1,
+      "duration": 120,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "architecture",
+        "walking",
+        "learning"
+      ],
+      "xp": 60
+    },
+    {
+      "id": "quest_103",
+      "title": "Explore the edge of the water",
+      "description": "Walk along a river, canal, lake or coastline for as far as you comfortably can.",
+      "category": "Exploration",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 1,
+      "duration": 90,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy"
+      ],
+      "tags": [
+        "water",
+        "walking",
+        "nature"
+      ],
+      "xp": 40
+    },
+    {
+      "id": "quest_104",
+      "title": "Find a secret garden",
+      "description": "Seek out a small hidden garden, courtyard or green space in your area that most people don't know about.",
+      "category": "Exploration",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 1,
+      "duration": 60,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy"
+      ],
+      "tags": [
+        "gardens",
+        "walking",
+        "hidden"
+      ],
+      "xp": 35
+    },
+    {
+      "id": "quest_105",
+      "title": "Go up instead of along",
+      "description": "Visit a rooftop, bell tower, viewing platform or high floor and study your area from above.",
+      "category": "Exploration",
+      "difficulty": 3,
+      "cost": 1,
+      "accessibility": 2,
+      "duration": 60,
+      "environment": "either",
+      "weather": [
+        "clear",
+        "cloudy"
+      ],
+      "tags": [
+        "views",
+        "city",
+        "perspective"
+      ],
+      "xp": 50
+    },
+    {
+      "id": "quest_106",
+      "title": "Visit a library you've never been to",
+      "description": "Go to a different library from your usual one and browse a section you've never looked at.",
+      "category": "Exploration",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 1,
+      "duration": 60,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "books",
+        "quiet",
+        "novelty"
+      ],
+      "xp": 25
+    },
+    {
+      "id": "quest_107",
+      "title": "Walk the whole of a bus route",
+      "description": "Pick a short bus route and walk it from one end to the other, seeing what the passengers miss.",
+      "category": "Exploration",
+      "difficulty": 4,
+      "cost": 0,
+      "accessibility": 1,
+      "duration": 180,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "walking",
+        "endurance",
+        "city"
+      ],
+      "xp": 90
+    },
+    {
+      "id": "quest_108",
+      "title": "Find an abandoned railway or old road",
+      "description": "Research an old railway line, Roman road or disused path near you and walk a stretch of it.",
+      "category": "Exploration",
+      "difficulty": 3,
+      "cost": 0,
+      "accessibility": 2,
+      "duration": 120,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "history",
+        "walking",
+        "hidden"
+      ],
+      "xp": 60
+    },
+    {
+      "id": "quest_109",
+      "title": "Explore at a different time of day",
+      "description": "Visit a familiar place at an unusual hour, early morning or late evening, and see how it changes.",
+      "category": "Exploration",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 30,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "time",
+        "observation",
+        "local"
+      ],
+      "xp": 20
+    },
+    {
+      "id": "quest_110",
+      "title": "Discover a local legend",
+      "description": "Find a local legend, ghost story or folk tale connected to your area and visit the place it is about.",
+      "category": "Exploration",
+      "difficulty": 3,
+      "cost": 0,
+      "accessibility": 2,
+      "duration": 90,
+      "environment": "either",
+      "weather": [
+        "clear",
+        "cloudy",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "folklore",
+        "history",
+        "stories"
+      ],
+      "xp": 55
+    },
+    {
+      "id": "quest_111",
+      "title": "Take a ferry or boat crossing",
+      "description": "Take any boat or ferry crossing, however short, and watch the shore from the water.",
+      "category": "Exploration",
+      "difficulty": 3,
+      "cost": 1,
+      "accessibility": 3,
+      "duration": 90,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy"
+      ],
+      "tags": [
+        "water",
+        "travel",
+        "public-transport"
+      ],
+      "xp": 55
+    },
+    {
+      "id": "quest_112",
+      "title": "Visit a castle or ruin",
+      "description": "Find the nearest castle, abbey, fort or ruin and walk its walls. Imagine who stood guard there.",
+      "category": "Exploration",
+      "difficulty": 4,
+      "cost": 1,
+      "accessibility": 3,
+      "duration": 240,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy"
+      ],
+      "tags": [
+        "history",
+        "medieval",
+        "travel"
+      ],
+      "xp": 90
+    },
+    {
+      "id": "quest_113",
+      "title": "Explore the industrial side of town",
+      "description": "Walk through a working port, industrial estate or rail yard area (safely and legally) and observe how things get made and moved.",
+      "category": "Exploration",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 1,
+      "duration": 60,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "city",
+        "industry",
+        "novelty"
+      ],
+      "xp": 35
+    },
+    {
+      "id": "quest_114",
+      "title": "Learn ten words in a new language",
+      "description": "Pick a language you know nothing of and learn ten useful words. Use one of them today.",
+      "category": "Learning",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 20,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "language",
+        "memory",
+        "novelty"
+      ],
+      "xp": 15
+    },
+    {
+      "id": "quest_115",
+      "title": "Learn to identify five trees",
+      "description": "Learn to recognise five trees by their leaves or bark, then go and find each one.",
+      "category": "Learning",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 60,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "trees",
+        "nature",
+        "identification"
+      ],
+      "xp": 35
+    },
+    {
+      "id": "quest_116",
+      "title": "Watch a documentary on something unfamiliar",
+      "description": "Choose a documentary about a subject you know nothing about and watch it with full attention.",
+      "category": "Learning",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 90,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "film",
+        "curiosity",
+        "science"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_117",
+      "title": "Learn a card trick",
+      "description": "Learn a simple card trick well enough to perform it for someone.",
+      "category": "Learning",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 40,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "magic",
+        "skills",
+        "games"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_118",
+      "title": "Learn the history of your street",
+      "description": "Research what stood on your street a hundred years ago. Find an old photo if you can.",
+      "category": "Learning",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 60,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "history",
+        "local",
+        "research"
+      ],
+      "xp": 35
+    },
+    {
+      "id": "quest_119",
+      "title": "Learn to juggle three objects",
+      "description": "Practise juggling with three soft objects. Keep going until you manage a few passes in a row.",
+      "category": "Learning",
+      "difficulty": 3,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 45,
+      "environment": "either",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "skills",
+        "coordination",
+        "playful"
+      ],
+      "xp": 45
+    },
+    {
+      "id": "quest_120",
+      "title": "Learn five constellations",
+      "description": "Learn five constellations, then go outside on a clear night and find them.",
+      "category": "Learning",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 45,
+      "environment": "outdoor",
+      "weather": [
+        "clear"
+      ],
+      "tags": [
+        "sky",
+        "night",
+        "astronomy"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_121",
+      "title": "Take a free online lecture",
+      "description": "Watch a university lecture on a subject you never studied: philosophy, geology, medieval history.",
+      "category": "Learning",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 60,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "lecture",
+        "curiosity",
+        "study"
+      ],
+      "xp": 35
+    },
+    {
+      "id": "quest_122",
+      "title": "Learn a bird song",
+      "description": "Learn to recognise the song of one common local bird, then listen for it outdoors.",
+      "category": "Learning",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 30,
+      "environment": "either",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "birds",
+        "listening",
+        "nature"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_123",
+      "title": "Read a classic short story",
+      "description": "Read a short story by a writer you've heard of but never actually read.",
+      "category": "Learning",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 30,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "reading",
+        "literature",
+        "books"
+      ],
+      "xp": 20
+    },
+    {
+      "id": "quest_124",
+      "title": "Learn a useful knot",
+      "description": "Learn to tie a bowline, clove hitch or sheet bend, and practise until you can do it without looking.",
+      "category": "Learning",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 20,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "knots",
+        "skills",
+        "hands"
+      ],
+      "xp": 15
+    },
+    {
+      "id": "quest_125",
+      "title": "Learn how something works",
+      "description": "Pick an everyday object (a lock, a zip, a flushing toilet) and learn exactly how it works.",
+      "category": "Learning",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 30,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "science",
+        "engineering",
+        "curiosity"
+      ],
+      "xp": 20
+    },
+    {
+      "id": "quest_126",
+      "title": "Memorise a poem",
+      "description": "Choose a poem you like and learn it by heart. Recite it aloud to someone or to the sky.",
+      "category": "Learning",
+      "difficulty": 3,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 60,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "poetry",
+        "memory",
+        "literature"
+      ],
+      "xp": 50
+    },
+    {
+      "id": "quest_127",
+      "title": "Attend a public talk or workshop",
+      "description": "Find a free or cheap talk, workshop or class in your area and attend it.",
+      "category": "Learning",
+      "difficulty": 3,
+      "cost": 1,
+      "accessibility": 3,
+      "duration": 120,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "class",
+        "community",
+        "curiosity"
+      ],
+      "xp": 60
+    },
+    {
+      "id": "quest_128",
+      "title": "Learn to identify a wild edible",
+      "description": "Learn to safely identify one wild edible plant (like wild garlic or blackberry) and find it in the wild.",
+      "category": "Learning",
+      "difficulty": 3,
+      "cost": 0,
+      "accessibility": 2,
+      "duration": 90,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "foraging",
+        "plants",
+        "nature"
+      ],
+      "xp": 55
+    },
+    {
+      "id": "quest_129",
+      "title": "Learn some sign language",
+      "description": "Learn to sign the alphabet and a few greetings in your local sign language.",
+      "category": "Learning",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 45,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "language",
+        "skills",
+        "inclusion"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_130",
+      "title": "Learn a chord on an instrument",
+      "description": "Learn to play three chords on a guitar, ukulele or keyboard, or three notes on a whistle.",
+      "category": "Learning",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 1,
+      "duration": 45,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "music",
+        "skills",
+        "practice"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_131",
+      "title": "Learn about a medieval craft",
+      "description": "Research how a medieval craft worked, such as blacksmithing, illumination or weaving, and try a small part of it.",
+      "category": "Learning",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 60,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "medieval",
+        "history",
+        "crafts"
+      ],
+      "xp": 35
+    },
+    {
+      "id": "quest_132",
+      "title": "Learn to read a topographic map",
+      "description": "Learn how contour lines work and plan a walk using a topographic map.",
+      "category": "Learning",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 45,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "map",
+        "navigation",
+        "skills"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_133",
+      "title": "Learn the story behind a word",
+      "description": "Look up the etymology of five words you use every day. Find one with a surprising origin.",
+      "category": "Learning",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 20,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "language",
+        "history",
+        "curiosity"
+      ],
+      "xp": 15
+    },
+    {
+      "id": "quest_134",
+      "title": "Take apart an old gadget",
+      "description": "Safely dismantle a broken gadget and try to identify each component inside.",
+      "category": "Learning",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 45,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "engineering",
+        "curiosity",
+        "hands"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_135",
+      "title": "Learn to navigate by the sun or stars",
+      "description": "Learn how to find north using the sun, a watch or the stars. Test it outside.",
+      "category": "Learning",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 40,
+      "environment": "outdoor",
+      "weather": [
+        "clear"
+      ],
+      "tags": [
+        "navigation",
+        "sky",
+        "skills"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_136",
+      "title": "Watch clouds for twenty minutes",
+      "description": "Lie down somewhere and watch the clouds. Name the shapes and the cloud types if you can.",
+      "category": "Nature",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 20,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy"
+      ],
+      "tags": [
+        "sky",
+        "rest",
+        "slow"
+      ],
+      "xp": 15
+    },
+    {
+      "id": "quest_137",
+      "title": "Find five kinds of lichen or moss",
+      "description": "Search walls, trees and stones for five different kinds of moss or lichen. Photograph each one.",
+      "category": "Nature",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 45,
+      "environment": "outdoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "plants",
+        "observation",
+        "photography"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_138",
+      "title": "Sit in one spot in nature for thirty minutes",
+      "description": "Find a sit spot outdoors and stay completely still for thirty minutes. Notice who arrives when you are quiet.",
+      "category": "Nature",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 30,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy"
+      ],
+      "tags": [
+        "stillness",
+        "animals",
+        "mindfulness"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_139",
+      "title": "Go barefoot on grass",
+      "description": "Take off your shoes and walk barefoot on grass, sand or moss for a few minutes.",
+      "category": "Nature",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 10,
+      "environment": "outdoor",
+      "weather": [
+        "clear"
+      ],
+      "tags": [
+        "senses",
+        "grounding",
+        "playful"
+      ],
+      "xp": 15
+    },
+    {
+      "id": "quest_140",
+      "title": "Plant something",
+      "description": "Plant a seed, bulb, herb or tree, indoors or outside, and commit to looking after it.",
+      "category": "Nature",
+      "difficulty": 1,
+      "cost": 1,
+      "accessibility": 0,
+      "duration": 30,
+      "environment": "either",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "plants",
+        "gardening",
+        "patience"
+      ],
+      "xp": 20
+    },
+    {
+      "id": "quest_141",
+      "title": "Birdwatching session",
+      "description": "Spend an hour watching birds. Try to identify at least five species.",
+      "category": "Nature",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 1,
+      "duration": 60,
+      "environment": "outdoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "birds",
+        "observation",
+        "patience"
+      ],
+      "xp": 35
+    },
+    {
+      "id": "quest_142",
+      "title": "Find a spider's web with dew",
+      "description": "Go out early on a misty or dewy morning and find a spider web strung with water drops.",
+      "category": "Nature",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 30,
+      "environment": "outdoor",
+      "weather": [
+        "fog",
+        "cloudy"
+      ],
+      "tags": [
+        "morning",
+        "observation",
+        "photography"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_143",
+      "title": "Stargazing session",
+      "description": "Get away from bright lights on a clear night and look at the stars for half an hour. Try to spot a satellite.",
+      "category": "Nature",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 1,
+      "duration": 45,
+      "environment": "outdoor",
+      "weather": [
+        "clear"
+      ],
+      "tags": [
+        "night",
+        "sky",
+        "astronomy"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_144",
+      "title": "Collect autumn leaves",
+      "description": "Collect leaves in as many different colours and shapes as you can find, and press your favourites.",
+      "category": "Nature",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 30,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "seasonal",
+        "trees",
+        "collecting"
+      ],
+      "xp": 20
+    },
+    {
+      "id": "quest_145",
+      "title": "Listen to a storm",
+      "description": "Sit safely by a window during a storm or heavy rain and simply listen for fifteen minutes.",
+      "category": "Nature",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 15,
+      "environment": "indoor",
+      "weather": [
+        "rain",
+        "storm"
+      ],
+      "tags": [
+        "rain",
+        "listening",
+        "stillness"
+      ],
+      "xp": 15
+    },
+    {
+      "id": "quest_146",
+      "title": "Track animal footprints",
+      "description": "Look for animal tracks in mud, sand or snow and try to work out who made them.",
+      "category": "Nature",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 1,
+      "duration": 45,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy",
+        "rain",
+        "snow",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "animals",
+        "tracking",
+        "observation"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_147",
+      "title": "Visit a botanical garden",
+      "description": "Visit a botanical garden or arboretum and find the strangest plant there.",
+      "category": "Nature",
+      "difficulty": 2,
+      "cost": 1,
+      "accessibility": 2,
+      "duration": 120,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy"
+      ],
+      "tags": [
+        "plants",
+        "gardens",
+        "curiosity"
+      ],
+      "xp": 45
+    },
+    {
+      "id": "quest_148",
+      "title": "Rock pooling",
+      "description": "At low tide, explore rock pools and count the creatures you find. Put everything back gently.",
+      "category": "Nature",
+      "difficulty": 3,
+      "cost": 0,
+      "accessibility": 3,
+      "duration": 90,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy"
+      ],
+      "tags": [
+        "water",
+        "animals",
+        "coast"
+      ],
+      "xp": 55
+    },
+    {
+      "id": "quest_149",
+      "title": "Forage for berries",
+      "description": "In season, gather blackberries, bilberries or other safe wild fruit and eat some fresh.",
+      "category": "Nature",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 1,
+      "duration": 60,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "foraging",
+        "food",
+        "seasonal"
+      ],
+      "xp": 35
+    },
+    {
+      "id": "quest_150",
+      "title": "Find the first sign of the season",
+      "description": "Look for the first sign of the coming season: a bud, a migrating bird, a fallen leaf, a frost.",
+      "category": "Nature",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 30,
+      "environment": "outdoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "seasonal",
+        "observation",
+        "walking"
+      ],
+      "xp": 20
+    },
+    {
+      "id": "quest_151",
+      "title": "Watch a sunset without your phone",
+      "description": "Watch the entire sunset from start to finish, without taking a single photo.",
+      "category": "Nature",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 30,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy"
+      ],
+      "tags": [
+        "sky",
+        "evening",
+        "unplugged"
+      ],
+      "xp": 20
+    },
+    {
+      "id": "quest_152",
+      "title": "Hug a tree",
+      "description": "Find a tree you like and put your arms around it. Feel the texture of its bark and listen to its leaves.",
+      "category": "Nature",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 10,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "trees",
+        "playful",
+        "senses"
+      ],
+      "xp": 15
+    },
+    {
+      "id": "quest_153",
+      "title": "Gather a wildflower posy",
+      "description": "Pick a small bouquet of common wildflowers where it's allowed, or grow some, and learn their names.",
+      "category": "Nature",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 1,
+      "duration": 45,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "flowers",
+        "plants",
+        "identification"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_154",
+      "title": "Night sounds survey",
+      "description": "Stand outside after dark and list every sound you can hear: owls, wind, traffic, insects.",
+      "category": "Nature",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 20,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "night",
+        "listening",
+        "animals"
+      ],
+      "xp": 15
+    },
+    {
+      "id": "quest_155",
+      "title": "Walk in a forest",
+      "description": "Go to a forest or woodland and walk slowly, noticing the smell, the light and the silence.",
+      "category": "Nature",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 2,
+      "duration": 90,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy",
+        "rain",
+        "snow",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "trees",
+        "walking",
+        "forest-bathing"
+      ],
+      "xp": 40
+    },
+    {
+      "id": "quest_156",
+      "title": "Catch snowflakes",
+      "description": "When it snows, catch snowflakes on a dark sleeve and look closely at their shapes.",
+      "category": "Nature",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 15,
+      "environment": "outdoor",
+      "weather": [
+        "snow"
+      ],
+      "tags": [
+        "snow",
+        "observation",
+        "playful"
+      ],
+      "xp": 15
+    },
+    {
+      "id": "quest_157",
+      "title": "Butterfly and bee count",
+      "description": "Spend twenty minutes counting pollinators on a patch of flowers. Note which flowers are most popular.",
+      "category": "Nature",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 1,
+      "duration": 30,
+      "environment": "outdoor",
+      "weather": [
+        "clear"
+      ],
+      "tags": [
+        "insects",
+        "science",
+        "observation"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_158",
+      "title": "Go wild swimming",
+      "description": "Swim in a lake, river or sea at a safe, recognised spot, with a companion.",
+      "category": "Nature",
+      "difficulty": 4,
+      "cost": 0,
+      "accessibility": 4,
+      "duration": 90,
+      "environment": "outdoor",
+      "weather": [
+        "clear"
+      ],
+      "tags": [
+        "water",
+        "swimming",
+        "courage"
+      ],
+      "xp": 75
+    },
+    {
+      "id": "quest_159",
+      "title": "Adopt a tree",
+      "description": "Choose a tree near you and visit it regularly. Today, photograph and sketch it for your records.",
+      "category": "Nature",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 20,
+      "environment": "outdoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "trees",
+        "seasonal",
+        "ritual"
+      ],
+      "xp": 15
+    },
+    {
+      "id": "quest_160",
+      "title": "Take a long bath by candlelight",
+      "description": "Run a bath, light a candle (or dim the lights) and soak without your phone for thirty minutes.",
+      "category": "Self Care",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 40,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "rest",
+        "cosy",
+        "unplugged"
+      ],
+      "xp": 20
+    },
+    {
+      "id": "quest_161",
+      "title": "A slow morning ritual",
+      "description": "Wake up a little earlier and spend the first thirty minutes doing something slow and lovely before any screens.",
+      "category": "Self Care",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 30,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "morning",
+        "slow",
+        "unplugged"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_162",
+      "title": "Take yourself on a date",
+      "description": "Go alone to a café, film, museum or restaurant and enjoy your own company.",
+      "category": "Self Care",
+      "difficulty": 2,
+      "cost": 2,
+      "accessibility": 1,
+      "duration": 120,
+      "environment": "either",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "solo",
+        "treat",
+        "confidence"
+      ],
+      "xp": 45
+    },
+    {
+      "id": "quest_163",
+      "title": "Afternoon nap in a new spot",
+      "description": "Take a guilt-free twenty-minute nap somewhere unusual: a hammock, a park, a sunny patch of floor.",
+      "category": "Self Care",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 25,
+      "environment": "either",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "rest",
+        "playful",
+        "cosy"
+      ],
+      "xp": 15
+    },
+    {
+      "id": "quest_164",
+      "title": "Read in a sunny spot",
+      "description": "Find a patch of sunlight, indoors or out, and read a book for pleasure for half an hour.",
+      "category": "Self Care",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 30,
+      "environment": "either",
+      "weather": [
+        "clear"
+      ],
+      "tags": [
+        "reading",
+        "sunlight",
+        "rest"
+      ],
+      "xp": 20
+    },
+    {
+      "id": "quest_165",
+      "title": "Digital sunset",
+      "description": "Switch off all screens two hours before bed and spend the evening by lamplight.",
+      "category": "Self Care",
+      "difficulty": 3,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 120,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "unplugged",
+        "evening",
+        "sleep"
+      ],
+      "xp": 60
+    },
+    {
+      "id": "quest_166",
+      "title": "Brew a proper pot of tea",
+      "description": "Make tea the slow way, with loose leaves or herbs and a pot, and drink it without doing anything else.",
+      "category": "Self Care",
+      "difficulty": 1,
+      "cost": 1,
+      "accessibility": 0,
+      "duration": 20,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "tea",
+        "mindfulness",
+        "slow"
+      ],
+      "xp": 15
+    },
+    {
+      "id": "quest_167",
+      "title": "Make a comfort box",
+      "description": "Fill a small box with things that cheer you up: letters, photos, a favourite snack, a smell you love.",
+      "category": "Self Care",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 45,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "comfort",
+        "memory",
+        "making"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_168",
+      "title": "Go to bed at sundown",
+      "description": "Follow the rhythm of a medieval village: dim the lights at sunset and go to bed early.",
+      "category": "Self Care",
+      "difficulty": 3,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 60,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "sleep",
+        "medieval",
+        "rest"
+      ],
+      "xp": 50
+    },
+    {
+      "id": "quest_169",
+      "title": "Visit a sauna, spa or bathhouse",
+      "description": "Treat yourself to a sauna, steam room, hot spring or public baths.",
+      "category": "Self Care",
+      "difficulty": 3,
+      "cost": 2,
+      "accessibility": 3,
+      "duration": 120,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "rest",
+        "treat",
+        "warmth"
+      ],
+      "xp": 60
+    },
+    {
+      "id": "quest_170",
+      "title": "Do absolutely nothing for fifteen minutes",
+      "description": "Sit and do nothing at all for fifteen minutes. No phone, no book, no plans.",
+      "category": "Self Care",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 15,
+      "environment": "either",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "stillness",
+        "rest",
+        "mindfulness"
+      ],
+      "xp": 25
+    },
+    {
+      "id": "quest_171",
+      "title": "Give yourself a hand or foot massage",
+      "description": "Warm some oil or lotion and give your hands or feet a slow, careful massage.",
+      "category": "Self Care",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 15,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "body",
+        "rest",
+        "comfort"
+      ],
+      "xp": 15
+    },
+    {
+      "id": "quest_172",
+      "title": "Wear your favourite outfit for no reason",
+      "description": "Put on the clothes that make you feel most like yourself, even if you're not going anywhere.",
+      "category": "Self Care",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 10,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "confidence",
+        "playful",
+        "identity"
+      ],
+      "xp": 15
+    },
+    {
+      "id": "quest_173",
+      "title": "Create a cosy reading nook",
+      "description": "Arrange blankets, cushions and a lamp to create a nook you want to curl up in, then use it.",
+      "category": "Self Care",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 45,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "cosy",
+        "reading",
+        "home"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_174",
+      "title": "Breathe in the fresh air",
+      "description": "Step outside, close your eyes and take twenty slow, deep breaths.",
+      "category": "Self Care",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 5,
+      "environment": "outdoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "breathing",
+        "mindfulness",
+        "fresh-air"
+      ],
+      "xp": 15
+    },
+    {
+      "id": "quest_175",
+      "title": "Cancel one unnecessary obligation",
+      "description": "Look at your week and kindly cancel or postpone one thing you are only doing out of guilt.",
+      "category": "Self Care",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 15,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "boundaries",
+        "rest",
+        "courage"
+      ],
+      "xp": 25
+    },
+    {
+      "id": "quest_176",
+      "title": "Make a herbal remedy",
+      "description": "Make a soothing herbal infusion, bath salts or balm from simple ingredients, like an apothecary.",
+      "category": "Self Care",
+      "difficulty": 2,
+      "cost": 1,
+      "accessibility": 0,
+      "duration": 45,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "herbs",
+        "medieval",
+        "making"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_177",
+      "title": "Listen to an album start to finish",
+      "description": "Lie down and listen to a whole album, in order, without doing anything else.",
+      "category": "Self Care",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 45,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "music",
+        "listening",
+        "rest"
+      ],
+      "xp": 20
+    },
+    {
+      "id": "quest_178",
+      "title": "Sunbathe (sensibly) for ten minutes",
+      "description": "On a sunny day, sit in the sun for ten minutes and feel the warmth on your face.",
+      "category": "Self Care",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 10,
+      "environment": "outdoor",
+      "weather": [
+        "clear"
+      ],
+      "tags": [
+        "sunlight",
+        "rest",
+        "warmth"
+      ],
+      "xp": 15
+    },
+    {
+      "id": "quest_179",
+      "title": "Plan a day of rest",
+      "description": "Plan a full day this month that is dedicated to rest and pleasure, and put it in your calendar.",
+      "category": "Self Care",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 15,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "planning",
+        "rest",
+        "treat"
+      ],
+      "xp": 15
+    },
+    {
+      "id": "quest_180",
+      "title": "Get a haircut somewhere new",
+      "description": "Try a new barber or hairdresser, or a style you've been curious about.",
+      "category": "Self Care",
+      "difficulty": 3,
+      "cost": 2,
+      "accessibility": 1,
+      "duration": 60,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "novelty",
+        "treat",
+        "change"
+      ],
+      "xp": 50
+    },
+    {
+      "id": "quest_181",
+      "title": "Cook a medieval recipe",
+      "description": "Find a genuine medieval recipe (pottage, frumenty, spiced wafers) and cook it tonight.",
+      "category": "Food",
+      "difficulty": 3,
+      "cost": 1,
+      "accessibility": 0,
+      "duration": 90,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "cooking",
+        "medieval",
+        "history"
+      ],
+      "xp": 55
+    },
+    {
+      "id": "quest_182",
+      "title": "Try a cuisine you've never eaten",
+      "description": "Eat a dish from a country whose food you have never tried, at a restaurant or cooked at home.",
+      "category": "Food",
+      "difficulty": 2,
+      "cost": 2,
+      "accessibility": 1,
+      "duration": 90,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "taste",
+        "culture",
+        "novelty"
+      ],
+      "xp": 40
+    },
+    {
+      "id": "quest_183",
+      "title": "Bake bread from scratch",
+      "description": "Bake a loaf of bread by hand, from flour, water, salt and yeast.",
+      "category": "Food",
+      "difficulty": 3,
+      "cost": 1,
+      "accessibility": 0,
+      "duration": 180,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "baking",
+        "hands",
+        "patience"
+      ],
+      "xp": 70
+    },
+    {
+      "id": "quest_184",
+      "title": "Have a picnic",
+      "description": "Pack a picnic and eat it outdoors somewhere with a view, even if it's just a local park.",
+      "category": "Food",
+      "difficulty": 2,
+      "cost": 1,
+      "accessibility": 0,
+      "duration": 90,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy"
+      ],
+      "tags": [
+        "picnic",
+        "outdoors",
+        "slow"
+      ],
+      "xp": 40
+    },
+    {
+      "id": "quest_185",
+      "title": "Buy a fruit you've never tasted",
+      "description": "Find a fruit or vegetable you've never tasted, buy it and work out how to eat it.",
+      "category": "Food",
+      "difficulty": 1,
+      "cost": 1,
+      "accessibility": 0,
+      "duration": 20,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "taste",
+        "novelty",
+        "curiosity"
+      ],
+      "xp": 15
+    },
+    {
+      "id": "quest_186",
+      "title": "Cook over an open fire",
+      "description": "Cook something over a campfire, barbecue or fire pit, even just toasted bread or a sausage.",
+      "category": "Food",
+      "difficulty": 3,
+      "cost": 1,
+      "accessibility": 2,
+      "duration": 90,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "fire",
+        "cooking",
+        "camping"
+      ],
+      "xp": 55
+    },
+    {
+      "id": "quest_187",
+      "title": "Blind taste test",
+      "description": "Set up a blind taste test of three versions of one food (chocolate, apples, bread) and rank them.",
+      "category": "Food",
+      "difficulty": 1,
+      "cost": 1,
+      "accessibility": 0,
+      "duration": 30,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "taste",
+        "games",
+        "senses"
+      ],
+      "xp": 20
+    },
+    {
+      "id": "quest_188",
+      "title": "Make jam or preserves",
+      "description": "Make a small batch of jam, chutney or pickles, ideally from fruit you gathered yourself.",
+      "category": "Food",
+      "difficulty": 3,
+      "cost": 1,
+      "accessibility": 0,
+      "duration": 120,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "preserving",
+        "cooking",
+        "seasonal"
+      ],
+      "xp": 60
+    },
+    {
+      "id": "quest_189",
+      "title": "Eat breakfast outside",
+      "description": "Take your breakfast outdoors: a balcony, doorstep, garden or park bench.",
+      "category": "Food",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 20,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy"
+      ],
+      "tags": [
+        "morning",
+        "outdoors",
+        "slow"
+      ],
+      "xp": 15
+    },
+    {
+      "id": "quest_190",
+      "title": "Cook a dish from your family's past",
+      "description": "Cook a dish your parents or grandparents used to make. Ask someone for the recipe if you can.",
+      "category": "Food",
+      "difficulty": 2,
+      "cost": 1,
+      "accessibility": 0,
+      "duration": 90,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "family",
+        "memory",
+        "cooking"
+      ],
+      "xp": 40
+    },
+    {
+      "id": "quest_191",
+      "title": "Visit a farm shop or farmers' market",
+      "description": "Buy your ingredients directly from the people who grew them.",
+      "category": "Food",
+      "difficulty": 2,
+      "cost": 1,
+      "accessibility": 2,
+      "duration": 60,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "market",
+        "local",
+        "seasonal"
+      ],
+      "xp": 35
+    },
+    {
+      "id": "quest_192",
+      "title": "Host a feast",
+      "description": "Cook a feast of several dishes and invite people to share it at one long table.",
+      "category": "Food",
+      "difficulty": 4,
+      "cost": 2,
+      "accessibility": 4,
+      "duration": 240,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "hosting",
+        "friends",
+        "cooking"
+      ],
+      "xp": 90
+    },
+    {
+      "id": "quest_193",
+      "title": "Make fresh pasta",
+      "description": "Make pasta from flour and eggs with your own hands, and cut it into shapes.",
+      "category": "Food",
+      "difficulty": 3,
+      "cost": 1,
+      "accessibility": 0,
+      "duration": 90,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "cooking",
+        "hands",
+        "italian"
+      ],
+      "xp": 55
+    },
+    {
+      "id": "quest_194",
+      "title": "Make your own spice blend",
+      "description": "Toast and grind whole spices into your own spice blend, then cook with it.",
+      "category": "Food",
+      "difficulty": 2,
+      "cost": 1,
+      "accessibility": 0,
+      "duration": 45,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "spices",
+        "cooking",
+        "senses"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_195",
+      "title": "Try a new tea or coffee",
+      "description": "Try a tea, coffee or hot drink you have never had before: mint tea, chai, yerba mate, spiced cider.",
+      "category": "Food",
+      "difficulty": 1,
+      "cost": 1,
+      "accessibility": 0,
+      "duration": 15,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "taste",
+        "drinks",
+        "novelty"
+      ],
+      "xp": 15
+    },
+    {
+      "id": "quest_196",
+      "title": "Eat a meal in silence",
+      "description": "Eat one meal in complete silence, tasting every bite slowly.",
+      "category": "Food",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 30,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "mindfulness",
+        "taste",
+        "slow"
+      ],
+      "xp": 20
+    },
+    {
+      "id": "quest_197",
+      "title": "Cook with a single mystery ingredient",
+      "description": "Pick an ingredient in the shop without planning and build a dish around it.",
+      "category": "Food",
+      "difficulty": 2,
+      "cost": 1,
+      "accessibility": 0,
+      "duration": 60,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "cooking",
+        "spontaneity",
+        "invention"
+      ],
+      "xp": 35
+    },
+    {
+      "id": "quest_198",
+      "title": "Brew a hot spiced drink",
+      "description": "Make a pot of mulled cider, spiced milk or hot chocolate with real spices, like an innkeeper.",
+      "category": "Food",
+      "difficulty": 1,
+      "cost": 1,
+      "accessibility": 0,
+      "duration": 25,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "drinks",
+        "cosy",
+        "medieval"
+      ],
+      "xp": 15
+    },
+    {
+      "id": "quest_199",
+      "title": "Take a cooking class",
+      "description": "Join a cooking class in a cuisine or technique you've never tried.",
+      "category": "Food",
+      "difficulty": 4,
+      "cost": 3,
+      "accessibility": 3,
+      "duration": 180,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "class",
+        "cooking",
+        "skills"
+      ],
+      "xp": 90
+    },
+    {
+      "id": "quest_200",
+      "title": "Eat somewhere with a view",
+      "description": "Take your lunch to the most scenic spot you can reach today.",
+      "category": "Food",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 1,
+      "duration": 60,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy"
+      ],
+      "tags": [
+        "views",
+        "picnic",
+        "slow"
+      ],
+      "xp": 35
+    },
+    {
+      "id": "quest_201",
+      "title": "Make a traveller's trail mix",
+      "description": "Make your own trail mix or energy bars to carry on your next expedition.",
+      "category": "Food",
+      "difficulty": 1,
+      "cost": 1,
+      "accessibility": 0,
+      "duration": 20,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "snacks",
+        "preparation",
+        "hiking"
+      ],
+      "xp": 15
+    },
+    {
+      "id": "quest_202",
+      "title": "Climb a tree",
+      "description": "Find a sturdy, safe tree and climb it, even just to the first branch.",
+      "category": "Physical",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 20,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "climbing",
+        "playful",
+        "trees"
+      ],
+      "xp": 25
+    },
+    {
+      "id": "quest_203",
+      "title": "Try a new sport",
+      "description": "Try a sport you have never played: archery, fencing, climbing, frisbee, badminton.",
+      "category": "Physical",
+      "difficulty": 4,
+      "cost": 2,
+      "accessibility": 3,
+      "duration": 120,
+      "environment": "either",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "sports",
+        "novelty",
+        "skills"
+      ],
+      "xp": 80
+    },
+    {
+      "id": "quest_204",
+      "title": "Dance alone in your kitchen",
+      "description": "Put on your favourite song and dance with complete abandon until it ends. Then play one more.",
+      "category": "Physical",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 10,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "dance",
+        "music",
+        "joy"
+      ],
+      "xp": 15
+    },
+    {
+      "id": "quest_205",
+      "title": "Walk ten thousand steps somewhere new",
+      "description": "Walk ten thousand steps today, taking them through somewhere you've never walked.",
+      "category": "Physical",
+      "difficulty": 3,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 100,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "walking",
+        "endurance",
+        "novelty"
+      ],
+      "xp": 55
+    },
+    {
+      "id": "quest_206",
+      "title": "Swim somewhere different",
+      "description": "Swim at a pool, lido or beach you have never swum at before.",
+      "category": "Physical",
+      "difficulty": 3,
+      "cost": 1,
+      "accessibility": 2,
+      "duration": 90,
+      "environment": "either",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "swimming",
+        "water",
+        "novelty"
+      ],
+      "xp": 55
+    },
+    {
+      "id": "quest_207",
+      "title": "Morning stretch outside",
+      "description": "Do fifteen minutes of stretching or yoga outside in the morning air.",
+      "category": "Physical",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 15,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy"
+      ],
+      "tags": [
+        "stretching",
+        "morning",
+        "fresh-air"
+      ],
+      "xp": 15
+    },
+    {
+      "id": "quest_208",
+      "title": "Cycle a new route",
+      "description": "Take a bike ride along a route you have never cycled before.",
+      "category": "Physical",
+      "difficulty": 3,
+      "cost": 1,
+      "accessibility": 1,
+      "duration": 90,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "cycling",
+        "novelty",
+        "map"
+      ],
+      "xp": 55
+    },
+    {
+      "id": "quest_209",
+      "title": "Learn a martial arts form",
+      "description": "Learn a short sequence from tai chi, kung fu or historical swordsmanship, and practise it.",
+      "category": "Physical",
+      "difficulty": 3,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 45,
+      "environment": "either",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "martial-arts",
+        "skills",
+        "medieval"
+      ],
+      "xp": 45
+    },
+    {
+      "id": "quest_210",
+      "title": "Try archery",
+      "description": "Book an archery taster session and learn to loose an arrow like a medieval bowman.",
+      "category": "Physical",
+      "difficulty": 4,
+      "cost": 2,
+      "accessibility": 3,
+      "duration": 120,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "archery",
+        "medieval",
+        "sports"
+      ],
+      "xp": 80
+    },
+    {
+      "id": "quest_211",
+      "title": "Take the stairs everywhere",
+      "description": "For one whole day, take the stairs everywhere instead of lifts and escalators.",
+      "category": "Physical",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 20,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "strength",
+        "challenge",
+        "everyday"
+      ],
+      "xp": 25
+    },
+    {
+      "id": "quest_212",
+      "title": "Run to a landmark",
+      "description": "Run (or jog, or brisk walk) to a landmark you can see from your home and back.",
+      "category": "Physical",
+      "difficulty": 3,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 40,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "running",
+        "challenge",
+        "local"
+      ],
+      "xp": 45
+    },
+    {
+      "id": "quest_213",
+      "title": "Balance challenge",
+      "description": "Practise standing on one leg with your eyes closed. Then find a low wall or log to balance along.",
+      "category": "Physical",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 10,
+      "environment": "either",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "balance",
+        "playful",
+        "body"
+      ],
+      "xp": 15
+    },
+    {
+      "id": "quest_214",
+      "title": "Go bouldering",
+      "description": "Visit a bouldering or climbing wall and try your first (or next) climbing routes.",
+      "category": "Physical",
+      "difficulty": 4,
+      "cost": 2,
+      "accessibility": 3,
+      "duration": 120,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "climbing",
+        "strength",
+        "sports"
+      ],
+      "xp": 80
+    },
+    {
+      "id": "quest_215",
+      "title": "Carry the load",
+      "description": "Go on a walk carrying a loaded backpack, like a traveller with all their worldly goods.",
+      "category": "Physical",
+      "difficulty": 3,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 60,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "walking",
+        "strength",
+        "endurance"
+      ],
+      "xp": 50
+    },
+    {
+      "id": "quest_216",
+      "title": "Play in a park like a child",
+      "description": "Visit a park and use the playground equipment or play a game of tag, catch or hopscotch.",
+      "category": "Physical",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 30,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "playful",
+        "joy",
+        "movement"
+      ],
+      "xp": 20
+    },
+    {
+      "id": "quest_217",
+      "title": "Attend a dance class",
+      "description": "Join a drop-in dance class: folk, swing, salsa, ceilidh or anything else that appeals.",
+      "category": "Physical",
+      "difficulty": 4,
+      "cost": 2,
+      "accessibility": 3,
+      "duration": 90,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "dance",
+        "class",
+        "music"
+      ],
+      "xp": 75
+    },
+    {
+      "id": "quest_218",
+      "title": "Hold a plank for your age in seconds",
+      "description": "Hold a plank for as many seconds as your age (build up in sets if needed).",
+      "category": "Physical",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 10,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "strength",
+        "challenge",
+        "body"
+      ],
+      "xp": 25
+    },
+    {
+      "id": "quest_219",
+      "title": "Fly a kite",
+      "description": "Make or buy a kite and fly it on a windy hill.",
+      "category": "Physical",
+      "difficulty": 2,
+      "cost": 1,
+      "accessibility": 0,
+      "duration": 60,
+      "environment": "outdoor",
+      "weather": [
+        "wind",
+        "clear",
+        "cloudy"
+      ],
+      "tags": [
+        "wind",
+        "playful",
+        "sky"
+      ],
+      "xp": 35
+    },
+    {
+      "id": "quest_220",
+      "title": "Row, paddle or punt",
+      "description": "Get on the water in a rowing boat, canoe or punt and propel yourself along.",
+      "category": "Physical",
+      "difficulty": 4,
+      "cost": 2,
+      "accessibility": 3,
+      "duration": 120,
+      "environment": "outdoor",
+      "weather": [
+        "clear"
+      ],
+      "tags": [
+        "water",
+        "paddling",
+        "strength"
+      ],
+      "xp": 80
+    },
+    {
+      "id": "quest_221",
+      "title": "Snowball fight or snow sculpture",
+      "description": "When there's snow, build a snow sculpture or start a friendly snowball battle.",
+      "category": "Physical",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 45,
+      "environment": "outdoor",
+      "weather": [
+        "snow"
+      ],
+      "tags": [
+        "snow",
+        "playful",
+        "friends"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_222",
+      "title": "Sunrise run",
+      "description": "Go for a run or brisk walk that starts just as the sun is rising.",
+      "category": "Physical",
+      "difficulty": 3,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 40,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "running",
+        "morning",
+        "sky"
+      ],
+      "xp": 45
+    },
+    {
+      "id": "quest_223",
+      "title": "Try a skipping rope",
+      "description": "Skip with a rope for five minutes, counting your longest streak. Try a trick.",
+      "category": "Physical",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 10,
+      "environment": "either",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "cardio",
+        "playful",
+        "coordination"
+      ],
+      "xp": 25
+    },
+    {
+      "id": "quest_224",
+      "title": "Write a gratitude list of ten small things",
+      "description": "Write down ten small, specific things you are grateful for today. The smaller the better.",
+      "category": "Reflection",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 15,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "gratitude",
+        "writing",
+        "journaling"
+      ],
+      "xp": 15
+    },
+    {
+      "id": "quest_225",
+      "title": "Map your life's journey",
+      "description": "Draw your life so far as a road map, with forks, detours, towns and landmarks.",
+      "category": "Reflection",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 45,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "drawing",
+        "memory",
+        "journaling"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_226",
+      "title": "Walking meditation",
+      "description": "Walk very slowly for fifteen minutes, paying attention only to the feeling of each step.",
+      "category": "Reflection",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 15,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "mindfulness",
+        "walking",
+        "slow"
+      ],
+      "xp": 15
+    },
+    {
+      "id": "quest_227",
+      "title": "Write down a fear and a hope",
+      "description": "Write down one thing you fear and one thing you hope for. Read them aloud to yourself.",
+      "category": "Reflection",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 15,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "journaling",
+        "courage",
+        "honesty"
+      ],
+      "xp": 15
+    },
+    {
+      "id": "quest_228",
+      "title": "Revisit a place from your childhood",
+      "description": "Go back to a place from your childhood, a school, a park, a street, and notice how it has changed.",
+      "category": "Reflection",
+      "difficulty": 3,
+      "cost": 0,
+      "accessibility": 2,
+      "duration": 120,
+      "environment": "outdoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "memory",
+        "places",
+        "nostalgia"
+      ],
+      "xp": 60
+    },
+    {
+      "id": "quest_229",
+      "title": "Keep a one-day observation journal",
+      "description": "Carry a notebook all day and write down every interesting thing you notice.",
+      "category": "Reflection",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 30,
+      "environment": "either",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "journaling",
+        "observation",
+        "writing"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_230",
+      "title": "Write your own quest list",
+      "description": "Write a list of twenty adventures you want to have in your life. Circle the one you can start this month.",
+      "category": "Reflection",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 40,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "dreams",
+        "planning",
+        "writing"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_231",
+      "title": "Sit by water and think",
+      "description": "Sit beside moving water for twenty minutes and let your thoughts drift with it.",
+      "category": "Reflection",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 1,
+      "duration": 20,
+      "environment": "outdoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "water",
+        "stillness",
+        "thinking"
+      ],
+      "xp": 15
+    },
+    {
+      "id": "quest_232",
+      "title": "Look through old photographs",
+      "description": "Spend some time looking through old photos. Pick one and write the story behind it.",
+      "category": "Reflection",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 30,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "memory",
+        "photography",
+        "nostalgia"
+      ],
+      "xp": 20
+    },
+    {
+      "id": "quest_233",
+      "title": "Write a letter you won't send",
+      "description": "Write an honest letter to someone, living or not, that you will never send.",
+      "category": "Reflection",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 30,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "writing",
+        "honesty",
+        "emotions"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_234",
+      "title": "Candlelit evening of thought",
+      "description": "Spend an evening with only candlelight (safely) and no screens, reading or thinking.",
+      "category": "Reflection",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 90,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "unplugged",
+        "evening",
+        "medieval"
+      ],
+      "xp": 40
+    },
+    {
+      "id": "quest_235",
+      "title": "List what you've learned this year",
+      "description": "Write down every new thing you have learned in the past twelve months, big or small.",
+      "category": "Reflection",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 20,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "journaling",
+        "growth",
+        "learning"
+      ],
+      "xp": 15
+    },
+    {
+      "id": "quest_236",
+      "title": "Pick a word for this season",
+      "description": "Choose a single word to guide you for the next three months. Write it somewhere you'll see it.",
+      "category": "Reflection",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 10,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "intention",
+        "seasonal",
+        "writing"
+      ],
+      "xp": 15
+    },
+    {
+      "id": "quest_237",
+      "title": "Watch the moon rise",
+      "description": "Look up tonight's moonrise time, find a spot with a view east and watch it appear.",
+      "category": "Reflection",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 1,
+      "duration": 30,
+      "environment": "outdoor",
+      "weather": [
+        "clear"
+      ],
+      "tags": [
+        "moon",
+        "night",
+        "sky"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_238",
+      "title": "Write your personal legend",
+      "description": "Write a short legend about yourself in the third person, as a minstrel would sing it.",
+      "category": "Reflection",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 30,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "writing",
+        "medieval",
+        "identity"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_239",
+      "title": "Spend an hour in a quiet place",
+      "description": "Find a truly quiet place, such as a library, chapel, woodland or empty hall, and spend an hour there.",
+      "category": "Reflection",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 1,
+      "duration": 60,
+      "environment": "either",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "quiet",
+        "stillness",
+        "solo"
+      ],
+      "xp": 35
+    },
+    {
+      "id": "quest_240",
+      "title": "Ask yourself three big questions",
+      "description": "Journal your answers to: What gives me energy? What drains me? What am I avoiding?",
+      "category": "Reflection",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 30,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "journaling",
+        "honesty",
+        "growth"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_241",
+      "title": "Plan a pilgrimage",
+      "description": "Plan a meaningful long walk to a place that matters to you. Choose the date.",
+      "category": "Reflection",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 45,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "planning",
+        "walking",
+        "meaning"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_242",
+      "title": "Record a sound diary",
+      "description": "Record ten short sounds throughout your day that capture what your life sounds like right now.",
+      "category": "Reflection",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 30,
+      "environment": "either",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "audio",
+        "memory",
+        "listening"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_243",
+      "title": "Write a mission statement",
+      "description": "Write the creed of your own order of knights: what do you stand for, and what will you defend?",
+      "category": "Reflection",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 30,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "values",
+        "medieval",
+        "writing"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_244",
+      "title": "Join a local club for one meeting",
+      "description": "Attend a single meeting of a local club: chess, walking, choir, book club, historical re-enactment.",
+      "category": "Social",
+      "difficulty": 4,
+      "cost": 1,
+      "accessibility": 3,
+      "duration": 120,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "community",
+        "novelty",
+        "courage"
+      ],
+      "xp": 80
+    },
+    {
+      "id": "quest_245",
+      "title": "Volunteer for a morning",
+      "description": "Volunteer for a few hours at a food bank, animal shelter, garden or community event.",
+      "category": "Social",
+      "difficulty": 4,
+      "cost": 0,
+      "accessibility": 3,
+      "duration": 180,
+      "environment": "either",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "volunteering",
+        "community",
+        "kindness"
+      ],
+      "xp": 90
+    },
+    {
+      "id": "quest_246",
+      "title": "Go to a quiz night",
+      "description": "Go to a pub quiz or trivia night, with friends or by joining a team of strangers.",
+      "category": "Social",
+      "difficulty": 3,
+      "cost": 1,
+      "accessibility": 3,
+      "duration": 150,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "games",
+        "friends",
+        "trivia"
+      ],
+      "xp": 65
+    },
+    {
+      "id": "quest_247",
+      "title": "Talk to a stranger",
+      "description": "Have a real conversation with a stranger: in a queue, on a bench, at a bus stop.",
+      "category": "Social",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 10,
+      "environment": "either",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "strangers",
+        "courage",
+        "conversation"
+      ],
+      "xp": 25
+    },
+    {
+      "id": "quest_248",
+      "title": "Attend a local festival or fair",
+      "description": "Find a local festival, fête, fair or street party and go.",
+      "category": "Social",
+      "difficulty": 3,
+      "cost": 1,
+      "accessibility": 3,
+      "duration": 180,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "festival",
+        "community",
+        "local"
+      ],
+      "xp": 70
+    },
+    {
+      "id": "quest_249",
+      "title": "Organise a picnic with friends",
+      "description": "Gather some friends for a picnic in a park. Everyone brings one dish.",
+      "category": "Social",
+      "difficulty": 3,
+      "cost": 1,
+      "accessibility": 4,
+      "duration": 150,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy"
+      ],
+      "tags": [
+        "picnic",
+        "friends",
+        "hosting"
+      ],
+      "xp": 65
+    },
+    {
+      "id": "quest_250",
+      "title": "Join a group walk or run",
+      "description": "Join an organised group walk, parkrun or hiking group.",
+      "category": "Social",
+      "difficulty": 3,
+      "cost": 0,
+      "accessibility": 3,
+      "duration": 90,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "walking",
+        "community",
+        "running"
+      ],
+      "xp": 55
+    },
+    {
+      "id": "quest_251",
+      "title": "Attend an open mic night",
+      "description": "Go to an open mic night. Perform if you dare, or cheer loudly for those who do.",
+      "category": "Social",
+      "difficulty": 4,
+      "cost": 1,
+      "accessibility": 3,
+      "duration": 150,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "music",
+        "performance",
+        "courage"
+      ],
+      "xp": 85
+    },
+    {
+      "id": "quest_252",
+      "title": "Invite someone new for coffee",
+      "description": "Invite a colleague, neighbour or acquaintance you'd like to know better for a coffee.",
+      "category": "Social",
+      "difficulty": 3,
+      "cost": 1,
+      "accessibility": 4,
+      "duration": 60,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "friends",
+        "courage",
+        "conversation"
+      ],
+      "xp": 50
+    },
+    {
+      "id": "quest_253",
+      "title": "Play a board game with others",
+      "description": "Play a board or card game with family, friends or at a board-game café.",
+      "category": "Social",
+      "difficulty": 2,
+      "cost": 1,
+      "accessibility": 4,
+      "duration": 90,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "games",
+        "friends",
+        "playful"
+      ],
+      "xp": 40
+    },
+    {
+      "id": "quest_254",
+      "title": "Go to a community workshop",
+      "description": "Attend a repair café, community garden session or maker space open day.",
+      "category": "Social",
+      "difficulty": 3,
+      "cost": 0,
+      "accessibility": 3,
+      "duration": 120,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "community",
+        "making",
+        "skills"
+      ],
+      "xp": 60
+    },
+    {
+      "id": "quest_255",
+      "title": "Start a friendly competition",
+      "description": "Challenge a friend to a playful contest: best photo, best paper plane, longest skip streak.",
+      "category": "Social",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 4,
+      "duration": 45,
+      "environment": "either",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "games",
+        "friends",
+        "playful"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_256",
+      "title": "Take part in a litter pick",
+      "description": "Join or organise a litter pick in a park, beach or street.",
+      "category": "Social",
+      "difficulty": 3,
+      "cost": 0,
+      "accessibility": 3,
+      "duration": 90,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "community",
+        "environment",
+        "volunteering"
+      ],
+      "xp": 55
+    },
+    {
+      "id": "quest_257",
+      "title": "Sing with others",
+      "description": "Sing with other people: a choir, karaoke, a campfire singalong or a family car journey.",
+      "category": "Social",
+      "difficulty": 3,
+      "cost": 1,
+      "accessibility": 4,
+      "duration": 90,
+      "environment": "either",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "music",
+        "singing",
+        "friends"
+      ],
+      "xp": 55
+    },
+    {
+      "id": "quest_258",
+      "title": "Attend a meetup about a hobby",
+      "description": "Find a meetup for a hobby you're curious about and go along as a beginner.",
+      "category": "Social",
+      "difficulty": 4,
+      "cost": 1,
+      "accessibility": 3,
+      "duration": 120,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "hobbies",
+        "community",
+        "novelty"
+      ],
+      "xp": 80
+    },
+    {
+      "id": "quest_259",
+      "title": "Help a neighbour",
+      "description": "Offer a neighbour help with something: carrying shopping, fixing something, walking their dog.",
+      "category": "Social",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 45,
+      "environment": "either",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "neighbours",
+        "kindness",
+        "community"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_260",
+      "title": "Host a potluck",
+      "description": "Host a potluck dinner where everyone brings a dish with a story behind it.",
+      "category": "Social",
+      "difficulty": 4,
+      "cost": 1,
+      "accessibility": 4,
+      "duration": 240,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "hosting",
+        "food",
+        "friends"
+      ],
+      "xp": 90
+    },
+    {
+      "id": "quest_261",
+      "title": "Try a group dance",
+      "description": "Join a ceilidh, barn dance or folk dance evening, where everyone dances with everyone.",
+      "category": "Social",
+      "difficulty": 4,
+      "cost": 1,
+      "accessibility": 3,
+      "duration": 180,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "dance",
+        "folk",
+        "community"
+      ],
+      "xp": 90
+    },
+    {
+      "id": "quest_262",
+      "title": "Share a skill at a gathering",
+      "description": "Offer to teach a short skill at a community gathering, club or among friends.",
+      "category": "Social",
+      "difficulty": 4,
+      "cost": 0,
+      "accessibility": 4,
+      "duration": 90,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "teaching",
+        "community",
+        "courage"
+      ],
+      "xp": 75
+    },
+    {
+      "id": "quest_263",
+      "title": "Make someone laugh out loud",
+      "description": "Tell a joke, share a ridiculous story or do something silly that makes someone laugh.",
+      "category": "Social",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 4,
+      "duration": 10,
+      "environment": "either",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "humour",
+        "friends",
+        "joy"
+      ],
+      "xp": 15
+    },
+    {
+      "id": "quest_264",
+      "title": "Visit a museum you've never been to",
+      "description": "Visit a museum you've never entered and find the single most unexpected object in it.",
+      "category": "Culture",
+      "difficulty": 2,
+      "cost": 1,
+      "accessibility": 1,
+      "duration": 120,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "museum",
+        "history",
+        "curiosity"
+      ],
+      "xp": 45
+    },
+    {
+      "id": "quest_265",
+      "title": "Watch a foreign film",
+      "description": "Watch a film in a language you don't speak, from a country whose cinema you don't know.",
+      "category": "Culture",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 120,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "film",
+        "language",
+        "world"
+      ],
+      "xp": 35
+    },
+    {
+      "id": "quest_266",
+      "title": "See live music",
+      "description": "Go to a live performance of music you wouldn't normally listen to.",
+      "category": "Culture",
+      "difficulty": 3,
+      "cost": 2,
+      "accessibility": 3,
+      "duration": 150,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "music",
+        "live",
+        "novelty"
+      ],
+      "xp": 65
+    },
+    {
+      "id": "quest_267",
+      "title": "Read a book from another century",
+      "description": "Start reading a book written more than a hundred years ago.",
+      "category": "Culture",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 60,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "reading",
+        "history",
+        "literature"
+      ],
+      "xp": 35
+    },
+    {
+      "id": "quest_268",
+      "title": "Attend a theatre performance",
+      "description": "See a play, puppet show, opera or amateur dramatic production.",
+      "category": "Culture",
+      "difficulty": 3,
+      "cost": 2,
+      "accessibility": 3,
+      "duration": 180,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "theatre",
+        "live",
+        "stories"
+      ],
+      "xp": 70
+    },
+    {
+      "id": "quest_269",
+      "title": "Learn a folk song",
+      "description": "Learn the words to a traditional folk song from your region or another, and sing it through.",
+      "category": "Culture",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 30,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "music",
+        "folk",
+        "history"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_270",
+      "title": "Read about a medieval legend",
+      "description": "Read the original version of a medieval legend: Arthur, Beowulf, Robin Hood, Tristan and Isolde.",
+      "category": "Culture",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 60,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "medieval",
+        "legends",
+        "reading"
+      ],
+      "xp": 35
+    },
+    {
+      "id": "quest_271",
+      "title": "Visit a historic house",
+      "description": "Visit a historic house or heritage site and imagine a day in the life of someone who lived there.",
+      "category": "Culture",
+      "difficulty": 3,
+      "cost": 1,
+      "accessibility": 3,
+      "duration": 150,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "history",
+        "architecture",
+        "heritage"
+      ],
+      "xp": 65
+    },
+    {
+      "id": "quest_272",
+      "title": "Listen to a whole symphony",
+      "description": "Listen to a complete classical symphony, start to finish, without distraction.",
+      "category": "Culture",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 50,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "music",
+        "classical",
+        "listening"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_273",
+      "title": "Go to a poetry reading",
+      "description": "Attend a poetry reading or spoken-word night.",
+      "category": "Culture",
+      "difficulty": 3,
+      "cost": 1,
+      "accessibility": 3,
+      "duration": 120,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "poetry",
+        "live",
+        "words"
+      ],
+      "xp": 60
+    },
+    {
+      "id": "quest_274",
+      "title": "Explore a culture's festival food",
+      "description": "Learn about a festival from another culture and cook or eat one of its traditional foods.",
+      "category": "Culture",
+      "difficulty": 2,
+      "cost": 1,
+      "accessibility": 0,
+      "duration": 90,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "food",
+        "world",
+        "festivals"
+      ],
+      "xp": 40
+    },
+    {
+      "id": "quest_275",
+      "title": "Visit a bookshop and buy by the cover",
+      "description": "Visit a second-hand bookshop and buy a book purely because of its cover or title.",
+      "category": "Culture",
+      "difficulty": 1,
+      "cost": 1,
+      "accessibility": 0,
+      "duration": 45,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "books",
+        "spontaneity",
+        "reading"
+      ],
+      "xp": 20
+    },
+    {
+      "id": "quest_276",
+      "title": "Watch a silent film",
+      "description": "Watch a silent film from the 1920s and pay attention to how it tells its story without words.",
+      "category": "Culture",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 90,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "film",
+        "history",
+        "stories"
+      ],
+      "xp": 30
+    },
+    {
+      "id": "quest_277",
+      "title": "Learn about a local craftsperson",
+      "description": "Visit a local craftsperson's workshop or studio: a potter, a blacksmith, a luthier.",
+      "category": "Culture",
+      "difficulty": 3,
+      "cost": 0,
+      "accessibility": 3,
+      "duration": 90,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "crafts",
+        "local",
+        "skills"
+      ],
+      "xp": 55
+    },
+    {
+      "id": "quest_278",
+      "title": "See a medieval re-enactment or fair",
+      "description": "Find a medieval fair, jousting show or re-enactment event and attend it.",
+      "category": "Culture",
+      "difficulty": 4,
+      "cost": 2,
+      "accessibility": 3,
+      "duration": 240,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "medieval",
+        "festival",
+        "history"
+      ],
+      "xp": 90
+    },
+    {
+      "id": "quest_279",
+      "title": "Listen to music from a new country",
+      "description": "Spend an evening exploring the music of a country you know nothing about.",
+      "category": "Culture",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 45,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "music",
+        "world",
+        "novelty"
+      ],
+      "xp": 20
+    },
+    {
+      "id": "quest_280",
+      "title": "Read a myth from another culture",
+      "description": "Read a myth or folk tale from a culture far from your own.",
+      "category": "Culture",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 30,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "myths",
+        "stories",
+        "world"
+      ],
+      "xp": 20
+    },
+    {
+      "id": "quest_281",
+      "title": "Visit a free lunchtime concert",
+      "description": "Find a free lunchtime or church concert and spend your lunch listening.",
+      "category": "Culture",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 3,
+      "duration": 60,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "music",
+        "live",
+        "classical"
+      ],
+      "xp": 35
+    },
+    {
+      "id": "quest_282",
+      "title": "Try an illuminated letter",
+      "description": "Look at illuminated manuscripts online, then decorate the first letter of your name in the same style.",
+      "category": "Culture",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 60,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "medieval",
+        "art",
+        "calligraphy"
+      ],
+      "xp": 35
+    },
+    {
+      "id": "quest_283",
+      "title": "Learn about the history of a local festival",
+      "description": "Research the origins of a festival or tradition celebrated where you live.",
+      "category": "Culture",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 30,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "history",
+        "local",
+        "festivals"
+      ],
+      "xp": 20
+    },
+    {
+      "id": "quest_284",
+      "title": "Watch a play by Shakespeare",
+      "description": "Watch a Shakespeare play, live or recorded, that you have never seen.",
+      "category": "Culture",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 150,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "theatre",
+        "literature",
+        "history"
+      ],
+      "xp": 50
+    },
+    {
+      "id": "quest_285",
+      "title": "Say yes to the next invitation",
+      "description": "Say yes to the next reasonable invitation you receive today, however unusual.",
+      "category": "Spontaneity",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 60,
+      "environment": "either",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "yes",
+        "courage",
+        "people"
+      ],
+      "xp": 35
+    },
+    {
+      "id": "quest_286",
+      "title": "Let a coin decide",
+      "description": "At every junction on a walk, flip a coin: heads left, tails right. Walk for thirty minutes.",
+      "category": "Spontaneity",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 30,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "walking",
+        "chance",
+        "playful"
+      ],
+      "xp": 20
+    },
+    {
+      "id": "quest_287",
+      "title": "Order the strangest thing on the menu",
+      "description": "Next time you eat out, order the dish you understand least.",
+      "category": "Spontaneity",
+      "difficulty": 2,
+      "cost": 1,
+      "accessibility": 1,
+      "duration": 60,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "food",
+        "chance",
+        "novelty"
+      ],
+      "xp": 35
+    },
+    {
+      "id": "quest_288",
+      "title": "Change your routine completely for a morning",
+      "description": "Do your morning routine in reverse order, or in a different room, or at a different time.",
+      "category": "Spontaneity",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 30,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "routine",
+        "playful",
+        "novelty"
+      ],
+      "xp": 20
+    },
+    {
+      "id": "quest_289",
+      "title": "Point at a map and go",
+      "description": "Close your eyes, point at a local map and go to the nearest reachable spot to where your finger lands.",
+      "category": "Spontaneity",
+      "difficulty": 3,
+      "cost": 0,
+      "accessibility": 2,
+      "duration": 120,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "map",
+        "chance",
+        "exploration"
+      ],
+      "xp": 60
+    },
+    {
+      "id": "quest_290",
+      "title": "Take a spontaneous day trip",
+      "description": "Pick a destination within two hours and go today, with no plan beyond getting there.",
+      "category": "Spontaneity",
+      "difficulty": 5,
+      "cost": 2,
+      "accessibility": 3,
+      "duration": 480,
+      "environment": "either",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "travel",
+        "chance",
+        "adventure"
+      ],
+      "xp": 120
+    },
+    {
+      "id": "quest_291",
+      "title": "Follow a stranger's recommendation",
+      "description": "Ask a shopkeeper, librarian or barista for their favourite local thing, then go and do it.",
+      "category": "Spontaneity",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 60,
+      "environment": "either",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "strangers",
+        "chance",
+        "local"
+      ],
+      "xp": 35
+    },
+    {
+      "id": "quest_292",
+      "title": "Pick a book from a random shelf",
+      "description": "In a library or bookshop, walk to a random shelf, take the fifth book and read its first chapter.",
+      "category": "Spontaneity",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 1,
+      "duration": 40,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "books",
+        "chance",
+        "reading"
+      ],
+      "xp": 20
+    },
+    {
+      "id": "quest_293",
+      "title": "Get off one stop early",
+      "description": "Get off the bus or train one stop early and walk the rest of the way on a route you don't know.",
+      "category": "Spontaneity",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 20,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "walking",
+        "novelty",
+        "public-transport"
+      ],
+      "xp": 15
+    },
+    {
+      "id": "quest_294",
+      "title": "Dice-driven afternoon",
+      "description": "Write six small activities on a list and roll a die to decide what you do next, three times in a row.",
+      "category": "Spontaneity",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 90,
+      "environment": "either",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "chance",
+        "games",
+        "playful"
+      ],
+      "xp": 40
+    },
+    {
+      "id": "quest_295",
+      "title": "Eat dessert first",
+      "description": "At one meal today, eat dessert before the main course. Enjoy the rebellion.",
+      "category": "Spontaneity",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 20,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "playful",
+        "food",
+        "rebellion"
+      ],
+      "xp": 15
+    },
+    {
+      "id": "quest_296",
+      "title": "Try something you've always said no to",
+      "description": "Pick one thing you usually refuse (a food, an activity, a genre) and give it a fair try.",
+      "category": "Spontaneity",
+      "difficulty": 3,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 60,
+      "environment": "either",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "courage",
+        "novelty",
+        "yes"
+      ],
+      "xp": 50
+    },
+    {
+      "id": "quest_297",
+      "title": "Follow the music",
+      "description": "When you hear music outside, from a busker, a café or an open window, walk towards it.",
+      "category": "Spontaneity",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 20,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "music",
+        "walking",
+        "chance"
+      ],
+      "xp": 15
+    },
+    {
+      "id": "quest_298",
+      "title": "Surprise yourself at the cinema",
+      "description": "Go to the cinema and see whatever film starts next, without checking what it is.",
+      "category": "Spontaneity",
+      "difficulty": 3,
+      "cost": 2,
+      "accessibility": 1,
+      "duration": 150,
+      "environment": "indoor",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "film",
+        "chance",
+        "treat"
+      ],
+      "xp": 65
+    },
+    {
+      "id": "quest_299",
+      "title": "Wear something bold",
+      "description": "Wear an item of clothing that is more colourful or unusual than you normally dare.",
+      "category": "Spontaneity",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 5,
+      "environment": "either",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "confidence",
+        "playful",
+        "identity"
+      ],
+      "xp": 15
+    },
+    {
+      "id": "quest_300",
+      "title": "Random act of generosity",
+      "description": "Do a spontaneous generous act: pay for a stranger's coffee, leave a book, give flowers away.",
+      "category": "Spontaneity",
+      "difficulty": 2,
+      "cost": 1,
+      "accessibility": 0,
+      "duration": 20,
+      "environment": "either",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "kindness",
+        "generosity",
+        "strangers"
+      ],
+      "xp": 25
+    },
+    {
+      "id": "quest_301",
+      "title": "Sleep somewhere different",
+      "description": "Spend a night somewhere new: a hostel, a friend's sofa, a tent in the garden, a different room.",
+      "category": "Spontaneity",
+      "difficulty": 4,
+      "cost": 1,
+      "accessibility": 2,
+      "duration": 480,
+      "environment": "either",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "novelty",
+        "sleep",
+        "travel"
+      ],
+      "xp": 90
+    },
+    {
+      "id": "quest_302",
+      "title": "Be a tourist in your own town",
+      "description": "Spend a few hours as a tourist in your own town: pick up a leaflet, take the tour, buy a postcard.",
+      "category": "Spontaneity",
+      "difficulty": 3,
+      "cost": 1,
+      "accessibility": 1,
+      "duration": 180,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy",
+        "wind",
+        "fog"
+      ],
+      "tags": [
+        "local",
+        "exploration",
+        "playful"
+      ],
+      "xp": 70
+    },
+    {
+      "id": "quest_303",
+      "title": "Sunrise to sunset challenge",
+      "description": "Spend an entire day, from sunrise to sunset, mostly outdoors.",
+      "category": "Spontaneity",
+      "difficulty": 5,
+      "cost": 0,
+      "accessibility": 2,
+      "duration": 720,
+      "environment": "outdoor",
+      "weather": [
+        "clear",
+        "cloudy"
+      ],
+      "tags": [
+        "endurance",
+        "nature",
+        "sky"
+      ],
+      "xp": 120
+    },
+    {
+      "id": "quest_304",
+      "title": "Go where the wind blows",
+      "description": "Walk in the direction the wind is blowing for fifteen minutes, then find your way home differently.",
+      "category": "Spontaneity",
+      "difficulty": 1,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 30,
+      "environment": "outdoor",
+      "weather": [
+        "wind",
+        "clear",
+        "cloudy"
+      ],
+      "tags": [
+        "wind",
+        "walking",
+        "chance"
+      ],
+      "xp": 20
+    },
+    {
+      "id": "quest_305",
+      "title": "Choose a random hobby for a day",
+      "description": "Look up a list of hobbies, pick one at random and spend an hour trying it.",
+      "category": "Spontaneity",
+      "difficulty": 3,
+      "cost": 1,
+      "accessibility": 1,
+      "duration": 60,
+      "environment": "either",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "hobbies",
+        "chance",
+        "novelty"
+      ],
+      "xp": 50
+    },
+    {
+      "id": "quest_306",
+      "title": "Write a message in a bottle",
+      "description": "Write a message to a stranger and leave it where someone will find it (responsibly, not in the sea).",
+      "category": "Spontaneity",
+      "difficulty": 2,
+      "cost": 0,
+      "accessibility": 0,
+      "duration": 30,
+      "environment": "either",
+      "weather": [
+        "any"
+      ],
+      "tags": [
+        "writing",
+        "strangers",
+        "treasure"
+      ],
+      "xp": 30
+    }
+  ]
+}
