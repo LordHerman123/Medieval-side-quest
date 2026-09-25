@@ -219,7 +219,7 @@ class SectionHeader(BoxLayout):
 
     def _draw(self, *_):
         self.canvas.before.clear()
-        mid = self.center_y
+        mid = self.y + self.height / 2
         with self.canvas.before:
             Color(*theme.GOLD_DARK)
             Line(points=[self.x + dp(4), mid, self.label.x, mid], width=dp(1))

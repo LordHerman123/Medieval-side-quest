@@ -10,7 +10,9 @@ campfire becomes a seasoned adventurer, and the camp grows into a stronghold.
 
 It's a normal Python/Kivy desktop app that can be packaged for Android with Buildozer.
 
-- **306 hand-written quests** in 14 categories, with structured metadata (`daily_quest_tracker/data/quests.json`)
+- **806 hand-written quests** in 18 categories, with structured metadata (`daily_quest_tracker/data/quests.json`)
+- **Quests on parchment scrolls.** Each quest is written on a scroll between wooden rolls, and new quests unroll
+  when they appear. The priority quest has gilded rolls and a red wax seal.
 - **Rule-based recommendations, no AI.** Plain statistics: recency-weighted preferences, novelty,
   repetition penalties and weather fit. About 70% of picks follow your preferences, 20% are new paths and 10% are wildcards.
 - **Hidden preference learning** from completions, skips, replacements, manual picks and abandoned quests
@@ -44,9 +46,14 @@ pip install pytest
 pytest
 ```
 
-The 106 tests cover quest data validation, filtering, scoring, preference updates, novelty and
+The 113 tests cover quest data validation, filtering, scoring, preference updates, novelty and
 wildcard selection, daily generation, XP and levels, progression, the weather fallback, database
 persistence and the full game loop. None of them start the GUI.
+
+`tests/test_android_compat.py` guards Android packaging. It checks that every file type in the app is
+included by `buildozer.spec` and that the required python-for-android recipes are listed. It also checks
+that app code imports only the standard library, Kivy and certifi, that the core has no Kivy
+dependency, and that data loads no matter what the working directory is.
 
 ## Project layout
 
@@ -75,7 +82,7 @@ daily_quest_tracker/
     ui/                         Kivy screens and widgets (the only part that imports Kivy)
         app.py                  App, top bar, navigation, weather loading
         screens/                today, library, quest_editor, camp, journey, statistics, settings
-        widgets/                camp_scene (procedural art), quest cards, dialogs, common widgets
+        widgets/                camp_scene and scroll (procedural art), quest cards, dialogs
     assets/                     fonts (DejaVu Serif), icon, presplash
     tests/
 buildozer.spec                  Android packaging configuration
@@ -167,6 +174,9 @@ The app is built to package with Buildozer/python-for-android without code chang
   state when paused.
 - The UI uses `dp`/`sp` units, a centred max-width column and scrolling screens, so it adapts to
   phone and desktop sizes.
+- All art, including the scrolls and the camp, is drawn with basic canvas instructions (Mesh, Ellipse,
+  Rectangle, Line). These run the same on desktop OpenGL and Android's OpenGL ES.
+- `pytest` runs the Android packaging checks described under [Tests](#tests).
 
 ### Build steps
 
@@ -202,10 +212,11 @@ Useful notes:
 
 ## Design notes
 
-- **Kivy without KivyMD.** The medieval look needs custom-drawn widgets anyway (parchment panels,
-  ember buttons, the camp scene). KivyMD 2.x is not yet released on PyPI and 1.x is deprecated, so
+- **Kivy without KivyMD.** The medieval look needs custom-drawn widgets anyway (parchment
+  scrolls, ember buttons, the camp scene). KivyMD 2.x is not yet released on PyPI and 1.x is deprecated, so
   plain Kivy has fewer packaging risks for python-for-android. Everything is themed from `ui/theme.py`.
-- **No image assets for the scene.** The camp is drawn with canvas primitives. That keeps the APK
+- **No image assets for the scene or the scrolls.** The camp (`ui/widgets/camp_scene.py`) and the
+  scrolls (`ui/widgets/scroll.py`) are drawn with canvas primitives. That keeps the APK
   small and lets gear, animals, NPCs, structures, weather and time of day combine freely.
 - **Fonts.** DejaVu Serif is bundled under its permissive licence (`assets/fonts/DejaVu-LICENSE.txt`).
 - **Weather data** comes from [Open-Meteo](https://open-meteo.com/) (free, no key).

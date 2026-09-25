@@ -111,7 +111,7 @@ class CampScene(StencilView):
     def _geometry(self) -> Tuple[float, float, float]:
         # Slightly crop the scene edges so the camp stays large on narrow screens.
         s = min(self.width / 185.0, self.height / 85.0) if self.width and self.height else 1.0
-        ox = self.center_x - (VW / 2) * s
+        ox = self.x + self.width / 2 - (VW / 2) * s
         oy = self.y
         return s, ox, oy
 
@@ -210,7 +210,7 @@ class CampScene(StencilView):
         br, bg_, bb, _ = hex_color(bottom)
         bands = 32
         horizon_px = self.P(0, HORIZON)[1]
-        span = max(1.0, self.top - horizon_px)
+        span = max(1.0, self.y + self.height - horizon_px)
         for i in range(bands):
             f = i / (bands - 1)
             g.add(Color(br + (tr - br) * f, bg_ + (tg - bg_) * f, bb + (tb - bb) * f, 1))
@@ -240,7 +240,7 @@ class CampScene(StencilView):
 
     def _virtual_left_right(self) -> Tuple[float, float]:
         left = (self.x - self._ox) / self._s
-        right = (self.right - self._ox) / self._s
+        right = (self.x + self.width - self._ox) / self._s
         return left - 5, right + 5
 
     def _draw_landscape(self, g):

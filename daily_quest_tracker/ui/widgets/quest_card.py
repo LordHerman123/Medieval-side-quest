@@ -23,7 +23,8 @@ from core.models import (
     Quest,
 )
 from ui import theme
-from ui.widgets.common import Chip, Panel, QuestButton, WrapLabel, button_row, format_duration
+from ui.widgets.common import Chip, QuestButton, WrapLabel, button_row, format_duration
+from ui.widgets.scroll import ScrollPanel
 
 PICK_HINTS = {
     PICK_NOVEL: "A new path",
@@ -57,7 +58,7 @@ class FlameIcon(Widget):
 
     def _flame(self, color, scale):
         w, h = self.width * scale, self.height * scale
-        cx, by = self.center_x, self.y + (self.height - h) * 0.15
+        cx, by = self.x + self.width / 2, self.y + (self.height - h) * 0.15
         pts = [cx, by + h * 0.3, cx - w / 2, by + h * 0.25, cx - w * 0.3, by + h * 0.65, cx, by + h,
                cx + w * 0.15, by + h * 0.6, cx + w * 0.5, by + h * 0.3, cx + w * 0.3, by]
         pts = pts + [cx - w * 0.3, by]
@@ -89,7 +90,7 @@ class PriorityBanner(BoxLayout):
             RoundedRectangle(pos=self.pos, size=self.size, radius=[dp(7)])
 
 
-class QuestCard(Panel):
+class QuestCard(ScrollPanel):
     """Displays one daily quest and the actions available for its status.
 
     ``actions`` maps action names (accept, complete, skip, replace, abandon,
@@ -99,15 +100,18 @@ class QuestCard(Panel):
     def __init__(self, entry: DailyQuest, actions: Dict[str, Callable[[str], None]],
                  category_color=None, priority: bool = False, **kwargs):
         kwargs.setdefault("spacing", dp(7))
+        kwargs.setdefault("seed", entry.quest_id)
+        if priority:
+            kwargs.setdefault("roll_height", dp(24))
         super().__init__(**kwargs)
         self.entry = entry
         self.actions = actions
         quest = entry.quest
         done = not entry.is_open
         if priority:
-            self.double_border = True
-            self.border_color = theme.GOLD_DARK
-            self.border_width = dp(2)
+            # The priority quest is sealed with red wax and rolled on gilded knobs.
+            self.knob_color = theme.GOLD
+            self.sealed = True
             self.add_widget(PriorityBanner("TODAY'S PRIORITY QUEST"))
         if done:
             self.bg_color = theme.PARCHMENT_DARK

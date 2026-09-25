@@ -11,7 +11,8 @@ from kivy.uix.label import Label
 from core.models import DIFFICULTY_LABELS, PICK_NOVEL, PICK_WILDCARD
 from ui import theme
 from ui.screens.base import BaseScreen
-from ui.widgets.common import Chip, EmptyState, Panel, SectionHeader, WrapLabel
+from ui.widgets.common import Chip, EmptyState, SectionHeader, WrapLabel
+from ui.widgets.scroll import ScrollPanel
 from ui.widgets.journey_path import JourneyPath
 
 TRAIL_LENGTH = 25
@@ -51,7 +52,8 @@ class JourneyScreen(BaseScreen):
             if completion.date != current_date:
                 current_date = completion.date
                 col.add_widget(SectionHeader(nice_date(current_date)))
-            card = Panel(spacing=dp(4), padding=(dp(12), dp(8)))
+            card = ScrollPanel(spacing=dp(4), roll_height=dp(14), seed=f"{completion.id}",
+                               padding=(dp(24), dp(22), dp(24), dp(24)))
             head = BoxLayout(size_hint_y=None, height=dp(24), spacing=dp(6))
             head.add_widget(Chip(text=completion.category,
                                  chip_color=theme.hex_color(game.library.category(completion.category).color)))

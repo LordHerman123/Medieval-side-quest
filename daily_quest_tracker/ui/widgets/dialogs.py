@@ -13,7 +13,8 @@ from kivy.uix.scrollview import ScrollView
 from core.game import CompletionResult
 from core.models import Quest
 from ui import theme
-from ui.widgets.common import Chip, Panel, QuestButton, WrapLabel, button_row, spacer
+from ui.widgets.common import Chip, QuestButton, WrapLabel, button_row, spacer
+from ui.widgets.scroll import ScrollPanel
 from ui.widgets.quest_card import quest_detail_line, quest_meta_line
 
 
@@ -24,8 +25,8 @@ class Dialog(ModalView):
         kwargs.setdefault("auto_dismiss", True)
         super().__init__(size_hint=(None, None), background="", background_color=(0, 0, 0, 0),
                          overlay_color=(0, 0, 0, 0.65), **kwargs)
-        self.panel = Panel(double_border=True, border_color=theme.GOLD_DARK, spacing=dp(8),
-                           padding=(dp(18), dp(16)))
+        self.panel = ScrollPanel(spacing=dp(8), knob_color=theme.GOLD, roll_height=dp(24),
+                                 padding=(dp(28), dp(36), dp(28), dp(38)))
         self.scroll = ScrollView(do_scroll_x=False, bar_width=dp(3))
         self.scroll.add_widget(self.panel)
         self.add_widget(self.scroll)

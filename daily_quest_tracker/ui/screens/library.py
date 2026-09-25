@@ -5,7 +5,7 @@ from __future__ import annotations
 from typing import Optional
 
 from kivy.clock import Clock
-from kivy.graphics import Color, Line, RoundedRectangle
+from kivy.graphics import Color, Rectangle, RoundedRectangle
 from kivy.metrics import dp
 from kivy.properties import ListProperty, StringProperty
 from kivy.uix.behaviors import ButtonBehavior
@@ -22,6 +22,7 @@ from ui.screens.base import BaseScreen
 from ui.widgets.common import QuestButton, ThemedInput, ThemedSpinner, WrapLabel
 from ui.widgets.dialogs import ConfirmDialog, QuestDetailDialog
 from ui.widgets.quest_card import quest_meta_line
+from ui.widgets.scroll import ROLL_EDGE, ROLL_LIGHT, ROLL_MID
 
 ANY = "Any"
 DIFFICULTY_OPTIONS = {f"Difficulty: {v}": k for k, v in DIFFICULTY_LABELS.items()}
@@ -40,7 +41,7 @@ class QuestRow(ButtonBehavior, BoxLayout):
     stripe = ListProperty(theme.LEATHER)
 
     def __init__(self, **kwargs):
-        super().__init__(orientation="vertical", padding=(dp(16), dp(8), dp(10), dp(8)), spacing=dp(2), **kwargs)
+        super().__init__(orientation="vertical", padding=(dp(26), dp(9), dp(20), dp(9)), spacing=dp(2), **kwargs)
         self.title_label = Label(color=theme.INK, bold=True, font_size=theme.FONT_SIZE, halign="left",
                                  valign="middle", shorten=True, shorten_from="right")
         self.meta_label = Label(color=theme.INK_SOFT, font_size=theme.FONT_SMALL, halign="left", valign="middle",
@@ -53,14 +54,28 @@ class QuestRow(ButtonBehavior, BoxLayout):
                   pos=self._draw, size=self._draw, stripe=self._draw, state=self._draw)
 
     def _draw(self, *_):
+        """A small scroll unrolled sideways: paper between two upright rolls."""
         self.canvas.before.clear()
+        roll = dp(12)
         with self.canvas.before:
+            Color(0, 0, 0, 0.3)
+            Rectangle(pos=(self.x + roll / 2 + dp(2), self.y + dp(1)), size=(self.width - roll, self.height - dp(6)))
             Color(*(theme.PARCHMENT_DARK if self.state == "down" else theme.PARCHMENT))
-            RoundedRectangle(pos=self.pos, size=self.size, radius=[dp(8)])
-            Color(*self.stripe)
-            RoundedRectangle(pos=(self.x, self.y), size=(dp(6), self.height), radius=[dp(8), 0, 0, dp(8)])
-            Color(*theme.BORDER)
-            Line(rounded_rectangle=(self.x, self.y, self.width, self.height, dp(8)), width=dp(1))
+            Rectangle(pos=(self.x + roll / 2, self.y + dp(3)), size=(self.width - roll, self.height - dp(6)))
+            Color(*self.stripe[:3], 0.85)
+            Rectangle(pos=(self.x + roll + dp(3), self.y + dp(3)), size=(dp(4), self.height - dp(6)))
+            for i in range(4):
+                Color(0.35, 0.25, 0.1, 0.12 * (1 - i / 4))
+                Rectangle(pos=(self.x + self.width - roll / 2 - dp(3) * (i + 1), self.y + dp(3)), size=(dp(3), self.height - dp(6)))
+            for rx in (self.x, self.x + self.width - roll):
+                Color(*ROLL_EDGE)
+                RoundedRectangle(pos=(rx, self.y), size=(roll, self.height), radius=[roll / 2])
+                Color(*ROLL_MID)
+                RoundedRectangle(pos=(rx + dp(1.5), self.y + dp(2)), size=(roll - dp(3), self.height - dp(4)),
+                                 radius=[roll / 2])
+                Color(*ROLL_LIGHT)
+                RoundedRectangle(pos=(rx + roll * 0.55, self.y + dp(5)), size=(roll * 0.2, self.height - dp(10)),
+                                 radius=[roll * 0.1])
 
     def on_release(self):
         screen = self.parent.parent.screen if self.parent and self.parent.parent else None

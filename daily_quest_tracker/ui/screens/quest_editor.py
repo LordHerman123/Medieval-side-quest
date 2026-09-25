@@ -20,8 +20,9 @@ from core.models import (
 from core.leveling import quest_xp
 from ui import theme
 from ui.screens.base import BaseScreen
-from ui.widgets.common import Panel, QuestButton, SectionHeader, ThemedInput, ThemedSpinner, WrapLabel, button_row
+from ui.widgets.common import QuestButton, SectionHeader, ThemedInput, ThemedSpinner, WrapLabel, button_row
 from ui.widgets.dialogs import ConfirmDialog
+from ui.widgets.scroll import ScrollPanel
 
 NEW_CATEGORY = "New category…"
 ENVIRONMENT_LABELS = {"Indoor": "indoor", "Outdoor": "outdoor", "Either": "either"}
@@ -75,7 +76,7 @@ class QuestEditorScreen(BaseScreen):
         col = self.column
         col.clear_widgets()
         col.add_widget(SectionHeader("Edit your quest" if quest else "Write a new quest"))
-        panel = Panel(spacing=dp(6))
+        panel = ScrollPanel(spacing=dp(6), seed="editor")
         col.add_widget(panel)
 
         self.title_input = self._field(panel, "Title", ThemedInput(text=quest.title if quest else "",

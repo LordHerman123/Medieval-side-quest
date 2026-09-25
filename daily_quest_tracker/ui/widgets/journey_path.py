@@ -31,7 +31,7 @@ class JourneyPath(Widget):
     def _point(self, f: float) -> Tuple[float, float]:
         margin = dp(22)
         x = self.x + margin + f * (self.width - 2 * margin)
-        y = self.center_y + math.sin(f * math.pi * 3) * self.height * 0.28
+        y = self.y + self.height / 2 + math.sin(f * math.pi * 3) * self.height * 0.28
         return x, y
 
     def _draw(self, *_):

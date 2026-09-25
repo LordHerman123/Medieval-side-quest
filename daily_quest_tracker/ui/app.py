@@ -99,7 +99,7 @@ class NavButton(Button):
         if self.active:
             with self.canvas.before:
                 Color(*theme.GOLD)
-                Rectangle(pos=(self.x + self.width * 0.2, self.top - dp(3)), size=(self.width * 0.6, dp(3)))
+                Rectangle(pos=(self.x + self.width * 0.2, self.y + self.height - dp(3)), size=(self.width * 0.6, dp(3)))
 
 
 class NavBar(BoxLayout):
@@ -119,7 +119,7 @@ class NavBar(BoxLayout):
             Color(*theme.BG_RAISED)
             Rectangle(pos=self.pos, size=self.size)
             Color(*theme.GOLD_DARK)
-            Rectangle(pos=(self.x, self.top - dp(1.5)), size=(self.width, dp(1.5)))
+            Rectangle(pos=(self.x, self.y + self.height - dp(1.5)), size=(self.width, dp(1.5)))
 
     def highlight(self, screen: str) -> None:
         for name, button in self.buttons.items():

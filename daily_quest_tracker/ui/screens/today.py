@@ -23,6 +23,8 @@ class TodayScreen(BaseScreen):
         self.scene = CampScene(size_hint_y=None, height=dp(200))
         self.column.bind(width=self._size_scene)
         self.shown_date = None
+        self._unrolled = set()  # (date, quest id) of scrolls that have already played their animation
+        self._new_cards = 0
 
     def _size_scene(self, *_):
         self.scene.height = max(dp(170), min(dp(300), self.column.width * 0.5))
@@ -40,6 +42,7 @@ class TodayScreen(BaseScreen):
         col = self.column
         col.clear_widgets()
         self.shown_date = game.today()
+        self._new_cards = 0
 
         self.scene.configure(loadout_ids(game.loadout()), game.level, game.weather, now=game.now())
         col.add_widget(self.scene)
@@ -68,12 +71,12 @@ class TodayScreen(BaseScreen):
         closed = [e for e in board if not e.is_open]
 
         for entry in priority:
-            col.add_widget(QuestCard(entry, actions, self._color(entry.quest.category), priority=True))
+            col.add_widget(self._card(entry, actions, priority=True))
 
         if others_open:
             col.add_widget(SectionHeader("Side Quests"))
             for entry in others_open:
-                col.add_widget(QuestCard(entry, actions, self._color(entry.quest.category)))
+                col.add_widget(self._card(entry, actions))
 
         if not priority and not others_open:
             col.add_widget(EmptyState("Every quest for today is settled. Rest by the fire, "
@@ -102,6 +105,16 @@ class TodayScreen(BaseScreen):
         else:
             text = describe_influence(None)
         return WrapLabel(text=text, color=theme.TEXT_MUTED, font_size=theme.FONT_SMALL, halign="center", italic=True)
+
+    def _card(self, entry, actions, priority: bool = False) -> QuestCard:
+        """Build a quest scroll; new quests unroll the first time they appear."""
+        card = QuestCard(entry, actions, self._color(entry.quest.category), priority=priority)
+        key = (entry.date, entry.quest_id)
+        if key not in self._unrolled:
+            self._unrolled.add(key)
+            card.unroll(duration=0.7, delay=0.1 + 0.12 * self._new_cards)
+            self._new_cards += 1
+        return card
 
     def _color(self, category: str):
         return theme.hex_color(self.game.library.category(category).color)
