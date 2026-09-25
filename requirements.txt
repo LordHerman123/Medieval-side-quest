@@ -1,0 +1,6 @@
+# Runtime
+kivy>=2.3,<2.4
+certifi  # TLS certificates for the optional weather lookup (falls back to system certs)
+
+# Development
+pytest>=7

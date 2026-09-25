@@ -116,6 +116,9 @@ class Game:
                            allow_group_quests=bool(self.setting("allow_group_quests")))
 
     # --- time ---------------------------------------------------------------
+    def now(self) -> datetime:
+        return self._now()
+
     def today(self) -> str:
         return self._now().date().isoformat()
 
